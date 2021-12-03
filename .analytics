@@ -1,0 +1,16 @@
+timestamp=[2021-12-02 23:33:47], mode=WORKBENCH_START, duration=0:00:01.626, duration_ms=1626, data={}
+timestamp=[2021-12-02 23:33:49], mode=WORKBENCH_UI_INIT, duration=0:00:02.757, duration_ms=2757, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2021-12-02 23:35:25], mode=PLATFORM_CREATION, duration=0:00:07.702, duration_ms=7702, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2021-12-02 23:36:53], mode=APP_CREATION, duration=0:00:04.818, duration_ms=4818, data={name=mem_test, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=Lab01, application_type=application}
+timestamp=[2021-12-02 23:38:16], mode=PLATFORM_GENERATION, duration=0:00:13.708, duration_ms=13708, data={name=Lab01}
+timestamp=[2021-12-02 23:41:13], mode=WORKBENCH_START, duration=0:00:06.774, duration_ms=6774, data={}
+timestamp=[2021-12-02 23:41:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.654, duration_ms=654, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-02 23:43:57], mode=WORKBENCH_START, duration=0:00:06.943, duration_ms=6943, data={}
+timestamp=[2021-12-02 23:43:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.711, duration_ms=711, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-02 23:54:17], mode=WORKBENCH_START, duration=0:00:06.422, duration_ms=6422, data={}
+timestamp=[2021-12-02 23:54:17], mode=WORKBENCH_UI_INIT, duration=0:00:00.549, duration_ms=549, data={editors_count=1, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2021-12-02 23:56:11], mode=PLATFORM_CREATION, duration=0:00:07.751, duration_ms=7751, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2021-12-02 23:57:43], mode=APP_CREATION, duration=0:00:04.334, duration_ms=4334, data={name=mem_test, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=Lab01Plat, application_type=application}
+timestamp=[2021-12-03 00:00:10], mode=PLATFORM_GENERATION, duration=0:00:13.738, duration_ms=13738, data={name=Lab01Plat}
+timestamp=[2021-12-03 00:03:08], mode=WORKBENCH_START, duration=0:00:08.044, duration_ms=8044, data={}
+timestamp=[2021-12-03 00:03:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.912, duration_ms=912, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}

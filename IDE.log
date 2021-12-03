@@ -1,0 +1,247 @@
+23:33:48 DEBUG : Executing com.xilinx.sdx.cmdline.service.CmdlineServiceRegisterHandler.execute()
+23:33:48 DEBUG : Registering services in IDE for commandline.
+23:33:48 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/temp_xsdb_launch_script.tcl
+23:33:51 INFO  : Registering command handlers for Vitis TCF services
+23:33:51 INFO  : XSCT server has started successfully.
+23:33:51 INFO  : Successfully done setting XSCT server connection channel  
+23:33:51 INFO  : plnx-install-location is set to ''
+23:33:51 INFO  : Successfully done query RDI_DATADIR 
+23:33:51 INFO  : Successfully done setting workspace for the tool. 
+23:35:27 INFO  : Successfully done sdx_reload_mss "/home/skillet/git/ECE530/Lab01/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+23:35:27 INFO  : Successfully done sdx_reload_mss "/home/skillet/git/ECE530/Lab01/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+23:38:16 INFO  : Checking for BSP changes to sync application flags for project 'mem_test'...
+23:40:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:40:33 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+23:40:33 INFO  : 'jtag frequency' command is executed.
+23:40:33 INFO  : Context for 'APU' is selected.
+23:40:33 INFO  : System reset is completed.
+23:40:36 INFO  : 'after 3000' command is executed.
+23:40:36 INFO  : Context for 'APU' is selected.
+23:40:36 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab01/export/Lab01/hw/system_wrapper.xsa'.
+23:40:36 INFO  : 'configparams force-mem-access 1' command is executed.
+23:40:36 INFO  : Context for 'APU' is selected.
+23:40:36 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab01/Lab01.sdk/_ide/psinit/ps7_init.tcl' is done.
+23:40:36 INFO  : 'ps7_init' command is executed.
+23:40:36 INFO  : 'ps7_post_config' command is executed.
+23:40:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:40:36 INFO  : The application '/home/skillet/git/ECE530/Lab01/Lab01.sdk/Debug/mem_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:40:36 INFO  : 'configparams force-mem-access 0' command is executed.
+23:40:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab01/export/Lab01/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab01/Lab01.sdk/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab01/Lab01.sdk/Debug/mem_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:40:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:40:36 INFO  : 'con' command is executed.
+23:40:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:41:12 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/temp_xsdb_launch_script.tcl
+23:41:14 INFO  : Registering command handlers for Vitis TCF services
+23:41:15 INFO  : XSCT server has started successfully.
+23:41:15 INFO  : Successfully done setting XSCT server connection channel  
+23:41:15 INFO  : plnx-install-location is set to ''
+23:41:15 INFO  : Successfully done query RDI_DATADIR 
+23:41:15 INFO  : Successfully done setting workspace for the tool. 
+23:43:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:43:16 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+23:43:16 INFO  : 'jtag frequency' command is executed.
+23:43:16 INFO  : Context for 'APU' is selected.
+23:43:16 INFO  : System reset is completed.
+23:43:19 INFO  : 'after 3000' command is executed.
+23:43:19 INFO  : Context for 'APU' is selected.
+23:43:19 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab01/export/Lab01/hw/system_wrapper.xsa'.
+23:43:19 INFO  : 'configparams force-mem-access 1' command is executed.
+23:43:19 INFO  : Context for 'APU' is selected.
+23:43:19 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab01/Lab01.sdk/_ide/psinit/ps7_init.tcl' is done.
+23:43:19 INFO  : 'ps7_init' command is executed.
+23:43:19 INFO  : 'ps7_post_config' command is executed.
+23:43:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:43:19 INFO  : The application '/home/skillet/git/ECE530/Lab01/Lab01.sdk/Debug/mem_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:43:19 INFO  : 'configparams force-mem-access 0' command is executed.
+23:43:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab01/export/Lab01/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab01/Lab01.sdk/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab01/Lab01.sdk/Debug/mem_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:43:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:43:19 INFO  : 'con' command is executed.
+23:43:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:43:19 INFO  : Disconnected from the channel tcfchan#1.
+23:43:56 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/temp_xsdb_launch_script.tcl
+23:43:58 INFO  : Registering command handlers for Vitis TCF services
+23:43:59 INFO  : XSCT server has started successfully.
+23:43:59 INFO  : Successfully done setting XSCT server connection channel  
+23:43:59 INFO  : plnx-install-location is set to ''
+23:43:59 INFO  : Successfully done query RDI_DATADIR 
+23:43:59 INFO  : Successfully done setting workspace for the tool. 
+23:47:04 INFO  : Removed '/home/skillet/git/ECE530/Lab01/export/Lab01' from custom platform repositories.
+23:54:17 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/temp_xsdb_launch_script.tcl
+23:54:17 INFO  : Registering command handlers for Vitis TCF services
+23:54:20 INFO  : XSCT server has started successfully.
+23:54:20 INFO  : plnx-install-location is set to ''
+23:54:20 INFO  : Successfully done setting XSCT server connection channel  
+23:54:20 INFO  : Successfully done query RDI_DATADIR 
+23:54:20 INFO  : Successfully done setting workspace for the tool. 
+23:56:13 INFO  : Successfully done sdx_reload_mss "/home/skillet/git/ECE530/Lab01Plat/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+23:56:13 INFO  : Successfully done sdx_reload_mss "/home/skillet/git/ECE530/Lab01Plat/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+00:00:10 INFO  : Checking for BSP changes to sync application flags for project 'mem_test'...
+00:00:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:00:33 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+00:00:33 INFO  : 'jtag frequency' command is executed.
+00:00:33 INFO  : Context for 'APU' is selected.
+00:00:33 INFO  : System reset is completed.
+00:00:36 INFO  : 'after 3000' command is executed.
+00:00:36 INFO  : Context for 'APU' is selected.
+00:00:36 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab01Plat/export/Lab01Plat/hw/system_wrapper.xsa'.
+00:00:36 INFO  : 'configparams force-mem-access 1' command is executed.
+00:00:36 INFO  : Context for 'APU' is selected.
+00:00:36 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab01/Lab01app/_ide/psinit/ps7_init.tcl' is done.
+00:00:37 INFO  : 'ps7_init' command is executed.
+00:00:37 INFO  : 'ps7_post_config' command is executed.
+00:00:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:00:37 INFO  : The application '/home/skillet/git/ECE530/Lab01/Lab01app/Debug/mem_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:00:37 INFO  : 'configparams force-mem-access 0' command is executed.
+00:00:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab01Plat/export/Lab01Plat/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab01/Lab01app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab01/Lab01app/Debug/mem_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:00:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:00:37 INFO  : 'con' command is executed.
+00:00:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:00:37 INFO  : Disconnected from the channel tcfchan#2.
+00:02:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:02:45 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+00:02:45 INFO  : 'jtag frequency' command is executed.
+00:02:45 INFO  : Context for 'APU' is selected.
+00:02:46 INFO  : System reset is completed.
+00:02:49 INFO  : 'after 3000' command is executed.
+00:02:49 INFO  : Context for 'APU' is selected.
+00:02:49 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab01Plat/export/Lab01Plat/hw/system_wrapper.xsa'.
+00:02:49 INFO  : 'configparams force-mem-access 1' command is executed.
+00:02:49 INFO  : Context for 'APU' is selected.
+00:02:49 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab01/Lab01app/_ide/psinit/ps7_init.tcl' is done.
+00:02:49 INFO  : 'ps7_init' command is executed.
+00:02:49 INFO  : 'ps7_post_config' command is executed.
+00:02:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:02:49 INFO  : The application '/home/skillet/git/ECE530/Lab01/Lab01app/Debug/mem_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:02:49 INFO  : 'configparams force-mem-access 0' command is executed.
+00:02:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab01Plat/export/Lab01Plat/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab01/Lab01app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab01/Lab01app/Debug/mem_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:02:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:02:49 INFO  : 'con' command is executed.
+00:02:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:03:07 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/temp_xsdb_launch_script.tcl
+00:03:09 INFO  : Registering command handlers for Vitis TCF services
+00:03:10 INFO  : XSCT server has started successfully.
+00:03:10 INFO  : Successfully done setting XSCT server connection channel  
+00:03:10 INFO  : plnx-install-location is set to ''
+00:03:10 INFO  : Successfully done setting workspace for the tool. 
+00:03:10 INFO  : Successfully done query RDI_DATADIR 
+00:04:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:04:24 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+00:04:24 INFO  : 'jtag frequency' command is executed.
+00:04:24 INFO  : Context for 'APU' is selected.
+00:04:24 INFO  : System reset is completed.
+00:04:27 INFO  : 'after 3000' command is executed.
+00:04:27 INFO  : Context for 'APU' is selected.
+00:04:27 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab01Plat/export/Lab01Plat/hw/system_wrapper.xsa'.
+00:04:27 INFO  : 'configparams force-mem-access 1' command is executed.
+00:04:27 INFO  : Context for 'APU' is selected.
+00:04:27 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab01/Lab01app/_ide/psinit/ps7_init.tcl' is done.
+00:04:27 INFO  : 'ps7_init' command is executed.
+00:04:27 INFO  : 'ps7_post_config' command is executed.
+00:04:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:04:27 INFO  : The application '/home/skillet/git/ECE530/Lab01/Lab01app/Debug/mem_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:04:27 INFO  : 'configparams force-mem-access 0' command is executed.
+00:04:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab01Plat/export/Lab01Plat/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab01/Lab01app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab01/Lab01app/Debug/mem_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:04:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:04:28 INFO  : 'con' command is executed.
+00:04:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:04:28 INFO  : Disconnected from the channel tcfchan#1.
