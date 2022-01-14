@@ -1,0 +1,37 @@
+00:57:55 **** Incremental Build of configuration Debug for project Lab06SW ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/lab6.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab6.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab06/Lab06HW/export/Lab06HW/sw/Lab06HW/standalone_domain/bspinclude/include -MMD -MP -MF"src/lab6.d" -MT"src/lab6.o" -o "src/lab6.o" "../src/lab6.c"
+../src/lab6.c: In function 'initTimer':
+../src/lab6.c:59:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(XST_FAILURE);
+   ^~~~
+../src/lab6.c:59:3: warning: incompatible implicit declaration of built-in function 'exit'
+../src/lab6.c:59:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+../src/lab6.c:7:1:
++#include <stdlib.h>
+ 
+../src/lab6.c:59:3:
+   exit(XST_FAILURE);
+   ^~~~
+Finished building: ../src/lab6.c
+ 
+Building target: Lab06SW.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/skillet/git/ECE530/Lab06/Lab06HW/export/Lab06HW/sw/Lab06HW/standalone_domain/bsplib/lib -o "Lab06SW.elf"  ./src/lab6.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab06SW.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab06SW.elf  |tee "Lab06SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33144	   1592	  23336	  58072	   e2d8	Lab06SW.elf
+Finished building: Lab06SW.elf.size
+ 
+
+00:57:55 Build Finished (took 363ms)
+

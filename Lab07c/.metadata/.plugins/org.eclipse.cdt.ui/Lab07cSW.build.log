@@ -1,0 +1,25 @@
+11:08:04 **** Incremental Build of configuration Debug for project Lab07cSW ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/lab07SCC.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab07SCC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/sw/Lab07cHW/standalone_domain/bspinclude/include -MMD -MP -MF"src/lab07SCC.d" -MT"src/lab07SCC.o" -o "src/lab07SCC.o" "../src/lab07SCC.c"
+Finished building: ../src/lab07SCC.c
+ 
+Building target: Lab07cSW.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/sw/Lab07cHW/standalone_domain/bsplib/lib -o "Lab07cSW.elf" ./src/lab07SCC.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab07cSW.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab07cSW.elf  |tee "Lab07cSW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41536	   2368	  23400	  67304	  106e8	Lab07cSW.elf
+Finished building: Lab07cSW.elf.size
+ 
+
+11:08:05 Build Finished (took 575ms)
+

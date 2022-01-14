@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.bit" key="Lab07SW1-bitFile"/>
+	<item value="" key="Lab07bSW-bmmFile"/>
+	<item value="Lab07bSW" key="programfpga.sdxproject"/>
+	<item value="" key="Lab07SW1-bmmFile"/>
+	<item value="false" key="Lab07SW1-skip_rev_check"/>
+	<item value="Auto Detect" key="Lab07bSW-device"/>
+	<item value="Local" key="Lab07SW1-target"/>
+	<item value="false" key="Lab07SW1-partial_bit"/>
+	<item value="false" key="Lab07bSW-skip_rev_check"/>
+	<item value="/home/skillet/git/ECE530/Lab07/wrapperb/interrupt_counter_wrapper.bit" key="Lab07bSW-bitFile"/>
+	<item value="false" key="Lab07bSW-partial_bit"/>
+	<item value="Local" key="Lab07bSW-target"/>
+	<item value="Auto Detect" key="Lab07SW1-device"/>
+</section>

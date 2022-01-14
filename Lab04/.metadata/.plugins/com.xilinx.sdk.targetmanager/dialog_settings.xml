@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="Lab04sw-target"/>
+	<item value="false" key="Lab04sw-skip_rev_check"/>
+	<item value="Auto Detect" key="Lab04sw-device"/>
+	<item value="_ide/bitstream/system_wrapper.mmi" key="Lab04sw-bmmFile"/>
+	<item value="Lab04sw" key="programfpga.sdxproject"/>
+	<item value="/home/skillet/git/ECE530/Lab04/Wrapper/system_wrapper.bit" key="Lab04sw-bitFile"/>
+	<item value="false" key="Lab04sw-partial_bit"/>
+</section>

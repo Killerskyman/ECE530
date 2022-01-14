@@ -1,0 +1,420 @@
+12:16:57 DEBUG : Launch script file '/home/skillet/git/ECE530/Lab04/temp_xsdb_launch_script.tcl' contents: 
+set xsdb_idle_timeout -1;source /tools/Xilinx/Vitis/2019.2/scripts/xsdb/xsdb/xsdb-server.tcl
+12:16:57 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/Lab04/temp_xsdb_launch_script.tcl
+12:17:00 INFO  : Registering command handlers for Vitis TCF services
+12:17:00 INFO  : XSCT server has started successfully.
+12:17:00 INFO  : plnx-install-location is set to ''
+12:17:00 INFO  : Successfully done setting XSCT server connection channel  
+12:17:00 INFO  : Successfully done query RDI_DATADIR 
+12:17:00 INFO  : Successfully done setting workspace for the tool. 
+12:18:28 INFO  : Successfully done sdx_reload_mss "/home/skillet/git/ECE530/Lab04/Lab04hw/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+12:18:28 INFO  : Successfully done sdx_reload_mss "/home/skillet/git/ECE530/Lab04/Lab04hw/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+12:33:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:33:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+12:33:37 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit"
+12:34:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:34:13 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+12:34:13 INFO  : 'jtag frequency' command is executed.
+12:34:13 INFO  : Context for 'APU' is selected.
+12:34:13 INFO  : System reset is completed.
+12:34:16 INFO  : 'after 3000' command is executed.
+12:34:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+12:34:17 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit"
+12:34:17 INFO  : Context for 'APU' is selected.
+12:34:18 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa'.
+12:34:18 INFO  : 'configparams force-mem-access 1' command is executed.
+12:34:18 INFO  : Context for 'APU' is selected.
+12:34:18 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl' is done.
+12:34:18 INFO  : 'ps7_init' command is executed.
+12:34:18 INFO  : 'ps7_post_config' command is executed.
+12:34:18 INFO  : 'configparams force-mem-access 0' command is executed.
+12:34:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1
+fpga -file /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:34:18 INFO  : Memory regions updated for context APU
+12:34:18 INFO  : Launch script is exported to file '/home/skillet/git/ECE530/Lab04/.sdk/launch_scripts/single_application_debug/debugger_lab04sw-default.tcl'
+12:35:21 INFO  : Checking for BSP changes to sync application flags for project 'Lab04sw'...
+12:36:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:36:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+12:36:19 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Wrapper/system_wrapper.bit"
+12:36:38 INFO  : Disconnected from the channel tcfchan#2.
+12:36:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:36:40 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+12:36:40 INFO  : 'jtag frequency' command is executed.
+12:36:40 INFO  : Context for 'APU' is selected.
+12:36:40 INFO  : System reset is completed.
+12:36:43 INFO  : 'after 3000' command is executed.
+12:36:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+12:36:44 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit"
+12:36:44 INFO  : Context for 'APU' is selected.
+12:36:44 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa'.
+12:36:44 INFO  : 'configparams force-mem-access 1' command is executed.
+12:36:44 INFO  : Context for 'APU' is selected.
+12:36:44 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl' is done.
+12:36:44 INFO  : 'ps7_init' command is executed.
+12:36:44 INFO  : 'ps7_post_config' command is executed.
+12:36:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:36:45 INFO  : The application '/home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:36:45 INFO  : 'configparams force-mem-access 0' command is executed.
+12:36:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1
+fpga -file /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:36:45 INFO  : Memory regions updated for context APU
+12:36:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:36:45 INFO  : 'con' command is executed.
+12:36:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:36:45 INFO  : Launch script is exported to file '/home/skillet/git/ECE530/Lab04/.sdk/launch_scripts/single_application_debug/debugger_lab04sw-default.tcl'
+12:52:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:52:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+12:52:59 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Wrapper/system_wrapper.bit"
+12:53:34 INFO  : Disconnected from the channel tcfchan#3.
+12:53:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:53:35 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+12:53:35 INFO  : 'jtag frequency' command is executed.
+12:53:35 INFO  : Context for 'APU' is selected.
+12:53:36 INFO  : System reset is completed.
+12:53:39 INFO  : 'after 3000' command is executed.
+12:53:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+12:53:40 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit"
+12:53:40 INFO  : Context for 'APU' is selected.
+12:53:40 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa'.
+12:53:40 INFO  : 'configparams force-mem-access 1' command is executed.
+12:53:40 INFO  : Context for 'APU' is selected.
+12:53:40 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl' is done.
+12:53:40 INFO  : 'ps7_init' command is executed.
+12:53:40 INFO  : 'ps7_post_config' command is executed.
+12:53:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:53:40 INFO  : The application '/home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:53:40 INFO  : 'configparams force-mem-access 0' command is executed.
+12:53:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1
+fpga -file /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:53:40 INFO  : Memory regions updated for context APU
+12:53:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:53:40 INFO  : 'con' command is executed.
+12:53:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:53:40 INFO  : Launch script is exported to file '/home/skillet/git/ECE530/Lab04/.sdk/launch_scripts/single_application_debug/debugger_lab04sw-default.tcl'
+23:01:11 INFO  : Disconnected from the channel tcfchan#4.
+15:54:47 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/Lab04/temp_xsdb_launch_script.tcl
+15:54:50 INFO  : Registering command handlers for Vitis TCF services
+15:54:52 INFO  : XSCT server has started successfully.
+15:54:52 INFO  : Successfully done setting XSCT server connection channel  
+15:54:52 INFO  : plnx-install-location is set to ''
+15:54:52 INFO  : Successfully done query RDI_DATADIR 
+15:54:52 INFO  : Successfully done setting workspace for the tool. 
+16:07:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:07:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+16:07:53 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Wrapper/system_wrapper.bit"
+16:08:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:08:07 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+16:08:07 INFO  : 'jtag frequency' command is executed.
+16:08:07 INFO  : Context for 'APU' is selected.
+16:08:07 INFO  : System reset is completed.
+16:08:10 INFO  : 'after 3000' command is executed.
+16:08:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+16:08:12 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit"
+16:08:12 INFO  : Context for 'APU' is selected.
+16:08:12 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa'.
+16:08:12 INFO  : 'configparams force-mem-access 1' command is executed.
+16:08:12 INFO  : Context for 'APU' is selected.
+16:08:12 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl' is done.
+16:08:12 INFO  : 'ps7_init' command is executed.
+16:08:12 INFO  : 'ps7_post_config' command is executed.
+16:08:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:08:12 INFO  : The application '/home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:08:12 INFO  : 'configparams force-mem-access 0' command is executed.
+16:08:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1
+fpga -file /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:08:12 INFO  : Memory regions updated for context APU
+16:08:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:08:13 INFO  : 'con' command is executed.
+16:08:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:08:13 INFO  : Launch script is exported to file '/home/skillet/git/ECE530/Lab04/.sdk/launch_scripts/single_application_debug/debugger_lab04sw-default.tcl'
+16:29:27 INFO  : Inferring section assignments and sizes from elf file: /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+16:29:49 INFO  : Successfully generated /home/skillet/git/ECE530/Lab04/Lab04sw/src/lscript.ld.
+16:29:49 INFO  : Applying linker script to all configurations of project Lab04sw.
+16:29:49 INFO  : Setting rebuild state to true for all configurations of project Lab04sw.
+16:30:08 INFO  : Disconnected from the channel tcfchan#1.
+16:30:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:30:09 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+16:30:09 INFO  : 'jtag frequency' command is executed.
+16:30:09 INFO  : Context for 'APU' is selected.
+16:30:09 INFO  : System reset is completed.
+16:30:12 INFO  : 'after 3000' command is executed.
+16:30:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+16:30:13 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit"
+16:30:13 INFO  : Context for 'APU' is selected.
+16:30:14 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa'.
+16:30:14 INFO  : 'configparams force-mem-access 1' command is executed.
+16:30:14 INFO  : Context for 'APU' is selected.
+16:30:14 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl' is done.
+16:30:15 INFO  : 'ps7_init' command is executed.
+16:30:15 INFO  : 'ps7_post_config' command is executed.
+16:30:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:30:15 INFO  : The application '/home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:30:15 INFO  : 'configparams force-mem-access 0' command is executed.
+16:30:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1
+fpga -file /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:30:15 INFO  : Memory regions updated for context APU
+16:30:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:30:15 INFO  : 'con' command is executed.
+16:30:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:30:15 INFO  : Launch script is exported to file '/home/skillet/git/ECE530/Lab04/.sdk/launch_scripts/single_application_debug/debugger_lab04sw-default.tcl'
+16:30:37 INFO  : Inferring section assignments and sizes from elf file: /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+16:30:49 INFO  : Successfully generated /home/skillet/git/ECE530/Lab04/Lab04sw/src/lscript.ld.
+16:30:49 INFO  : Applying linker script to all configurations of project Lab04sw.
+16:30:49 INFO  : Setting rebuild state to true for all configurations of project Lab04sw.
+16:30:59 INFO  : Disconnected from the channel tcfchan#2.
+16:31:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:31:00 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+16:31:00 INFO  : 'jtag frequency' command is executed.
+16:31:00 INFO  : Context for 'APU' is selected.
+16:31:00 INFO  : System reset is completed.
+16:31:03 INFO  : 'after 3000' command is executed.
+16:31:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+16:31:05 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit"
+16:31:05 INFO  : Context for 'APU' is selected.
+16:31:06 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa'.
+16:31:06 INFO  : 'configparams force-mem-access 1' command is executed.
+16:31:06 INFO  : Context for 'APU' is selected.
+16:31:06 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl' is done.
+16:31:06 INFO  : 'ps7_init' command is executed.
+16:31:06 INFO  : 'ps7_post_config' command is executed.
+16:31:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:31:07 INFO  : The application '/home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:31:07 INFO  : 'configparams force-mem-access 0' command is executed.
+16:31:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1
+fpga -file /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:31:07 INFO  : Memory regions updated for context APU
+16:31:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:31:07 INFO  : 'con' command is executed.
+16:31:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:31:07 INFO  : Launch script is exported to file '/home/skillet/git/ECE530/Lab04/.sdk/launch_scripts/single_application_debug/debugger_lab04sw-default.tcl'
+16:31:29 INFO  : Inferring section assignments and sizes from elf file: /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+16:31:42 INFO  : Successfully generated /home/skillet/git/ECE530/Lab04/Lab04sw/src/lscript.ld.
+16:31:42 INFO  : Applying linker script to all configurations of project Lab04sw.
+16:31:42 INFO  : Setting rebuild state to true for all configurations of project Lab04sw.
+16:31:53 INFO  : Disconnected from the channel tcfchan#3.
+16:31:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:31:54 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+16:31:54 INFO  : 'jtag frequency' command is executed.
+16:31:54 INFO  : Context for 'APU' is selected.
+16:31:54 INFO  : System reset is completed.
+16:31:57 INFO  : 'after 3000' command is executed.
+16:31:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+16:31:58 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit"
+16:31:58 INFO  : Context for 'APU' is selected.
+16:32:00 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa'.
+16:32:00 INFO  : 'configparams force-mem-access 1' command is executed.
+16:32:00 INFO  : Context for 'APU' is selected.
+16:32:00 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl' is done.
+16:32:00 INFO  : 'ps7_init' command is executed.
+16:32:00 INFO  : 'ps7_post_config' command is executed.
+16:32:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:32:00 INFO  : The application '/home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:32:00 INFO  : 'configparams force-mem-access 0' command is executed.
+16:32:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1
+fpga -file /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:32:00 INFO  : Memory regions updated for context APU
+16:32:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:32:00 INFO  : 'con' command is executed.
+16:32:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:32:00 INFO  : Launch script is exported to file '/home/skillet/git/ECE530/Lab04/.sdk/launch_scripts/single_application_debug/debugger_lab04sw-default.tcl'
+16:33:14 INFO  : Inferring section assignments and sizes from elf file: /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+16:33:28 INFO  : Successfully generated /home/skillet/git/ECE530/Lab04/Lab04sw/src/lscript.ld.
+16:33:28 INFO  : Applying linker script to all configurations of project Lab04sw.
+16:33:28 INFO  : Setting rebuild state to true for all configurations of project Lab04sw.
+16:33:33 INFO  : Checking for BSP changes to sync application flags for project 'Lab04sw'...
+16:33:44 INFO  : Disconnected from the channel tcfchan#4.
+16:33:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:33:46 INFO  : Jtag cable 'Digilent Zybo 210279758512A' is selected.
+16:33:46 INFO  : 'jtag frequency' command is executed.
+16:33:46 INFO  : Context for 'APU' is selected.
+16:33:46 INFO  : System reset is completed.
+16:33:49 INFO  : 'after 3000' command is executed.
+16:33:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1' command is executed.
+16:33:50 INFO  : FPGA configured successfully with bitstream "/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit"
+16:33:50 INFO  : Context for 'APU' is selected.
+16:33:51 INFO  : Hardware design information is loaded from '/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa'.
+16:33:51 INFO  : 'configparams force-mem-access 1' command is executed.
+16:33:51 INFO  : Context for 'APU' is selected.
+16:33:51 INFO  : Sourcing of '/home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl' is done.
+16:33:52 INFO  : 'ps7_init' command is executed.
+16:33:52 INFO  : 'ps7_post_config' command is executed.
+16:33:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:33:52 INFO  : The application '/home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:33:52 INFO  : 'configparams force-mem-access 0' command is executed.
+16:33:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1
+fpga -file /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/skillet/git/ECE530/Lab04/Lab04sw/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/skillet/git/ECE530/Lab04/Lab04sw/Debug/Lab04sw.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:33:52 INFO  : Memory regions updated for context APU
+16:33:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:33:52 INFO  : 'con' command is executed.
+16:33:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:33:52 INFO  : Launch script is exported to file '/home/skillet/git/ECE530/Lab04/.sdk/launch_scripts/single_application_debug/debugger_lab04sw-default.tcl'
+16:36:32 INFO  : Disconnected from the channel tcfchan#5.
+23:07:12 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/Lab04/temp_xsdb_launch_script.tcl
+23:07:14 INFO  : Registering command handlers for Vitis TCF services
+23:07:15 INFO  : XSCT server has started successfully.
+23:07:15 INFO  : plnx-install-location is set to ''
+23:07:15 INFO  : Successfully done setting XSCT server connection channel  
+23:07:15 INFO  : Successfully done query RDI_DATADIR 
+23:07:15 INFO  : Successfully done setting workspace for the tool. 

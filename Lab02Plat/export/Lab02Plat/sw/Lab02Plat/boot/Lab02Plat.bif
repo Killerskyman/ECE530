@@ -1,0 +1,7 @@
+/*Lab02Plat*/
+the_ROM_image:
+{
+  [bootloader]<Lab02Plat/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

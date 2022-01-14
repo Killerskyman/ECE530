@@ -1,14 +1,9 @@
-00:00:11 **** Build of configuration Debug for project mem_test ****
+04:34:57 **** Incremental Build of configuration Debug for project mem_test ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
  
 make --no-print-directory main-build
-Building file: ../src/memory_config_g.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab01Plat/export/Lab01Plat/sw/Lab01Plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
-Finished building: ../src/memory_config_g.c
- 
 Building file: ../src/memorytest.c
 Invoking: ARM v7 gcc compiler
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab01Plat/export/Lab01Plat/sw/Lab01Plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
@@ -31,5 +26,5 @@ arm-none-eabi-size mem_test.elf  |tee "mem_test.elf.size"
 Finished building: mem_test.elf.size
  
 
-00:00:11 Build Finished (took 417ms)
+04:34:57 Build Finished (took 366ms)
 

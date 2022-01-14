@@ -1,0 +1,25 @@
+2021-12-17T00:30:23.87744500255-00:30:23 **** Incremental Build of configuration Debug for project Lab05sw ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000- 
+000-make --no-print-directory main-build
+000-Building file: ../src/lab5.c
+000-Invoking: ARM v7 gcc compiler
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab05/Lab05hw/export/Lab05hw/sw/Lab05hw/standalone_domain/bspinclude/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+000-Finished building: ../src/lab5.c
+000- 
+000-Building target: Lab05sw.elf
+000-Invoking: ARM v7 gcc linker
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/skillet/git/ECE530/Lab05/Lab05hw/export/Lab05hw/sw/Lab05hw/standalone_domain/bsplib/lib -o "Lab05sw.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-Finished building target: Lab05sw.elf
+000- 
+000-Invoking: ARM v7 Print Size
+000-arm-none-eabi-size Lab05sw.elf  |tee "Lab05sw.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  32004	   1584	  23288	  56876	   de2c	Lab05sw.elf
+000-Finished building: Lab05sw.elf.size
+000- 
+00255-
+00:30:24 Build Finished (took 312ms)
+

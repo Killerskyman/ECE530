@@ -1,0 +1,10 @@
+buildConsoleBackgroundColor=36,31,49
+buildConsoleInfoStreamColor=26,95,180
+buildConsoleOutputStreamColor=255,255,255
+buildConsoleProblemBackgroundColor=192,28,40
+buildConsoleProblemInfoBackgroundColor=36,31,49
+buildConsoleProblemWarningBackgroundColor=246,211,45
+eclipse.preferences.version=1
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

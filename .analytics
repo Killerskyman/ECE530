@@ -14,3 +14,47 @@ timestamp=[2021-12-02 23:57:43], mode=APP_CREATION, duration=0:00:04.334, durati
 timestamp=[2021-12-03 00:00:10], mode=PLATFORM_GENERATION, duration=0:00:13.738, duration_ms=13738, data={name=Lab01Plat}
 timestamp=[2021-12-03 00:03:08], mode=WORKBENCH_START, duration=0:00:08.044, duration_ms=8044, data={}
 timestamp=[2021-12-03 00:03:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.912, duration_ms=912, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 03:39:58], mode=WORKBENCH_START, duration=0:00:07.096, duration_ms=7096, data={}
+timestamp=[2021-12-03 03:39:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.801, duration_ms=801, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 03:41:24], mode=PLATFORM_GENERATION, duration=0:00:12.107, duration_ms=12107, data={name=Lab01Plat}
+timestamp=[2021-12-03 03:43:31], mode=WORKBENCH_START, duration=0:00:07.910, duration_ms=7910, data={}
+timestamp=[2021-12-03 03:43:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.922, duration_ms=922, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 03:43:53], mode=PLATFORM_GENERATION, duration=0:00:11.841, duration_ms=11841, data={name=Lab01Plat}
+timestamp=[2021-12-03 03:45:17], mode=WORKBENCH_START, duration=0:00:07.403, duration_ms=7403, data={}
+timestamp=[2021-12-03 03:45:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.863, duration_ms=863, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 03:49:06], mode=PLATFORM_GENERATION, duration=0:00:11.800, duration_ms=11800, data={name=Lab01Plat}
+timestamp=[2021-12-03 03:49:49], mode=WORKBENCH_START, duration=0:00:06.933, duration_ms=6933, data={}
+timestamp=[2021-12-03 03:49:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.800, duration_ms=800, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 04:06:14], mode=WORKBENCH_START, duration=0:00:06.763, duration_ms=6763, data={}
+timestamp=[2021-12-03 04:06:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.794, duration_ms=794, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 04:06:34], mode=PLATFORM_GENERATION, duration=0:00:11.510, duration_ms=11510, data={name=Lab01Plat}
+timestamp=[2021-12-03 04:08:51], mode=WORKBENCH_START, duration=0:00:06.841, duration_ms=6841, data={}
+timestamp=[2021-12-03 04:08:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.770, duration_ms=770, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 04:24:01], mode=WORKBENCH_START, duration=0:00:07.363, duration_ms=7363, data={}
+timestamp=[2021-12-03 04:24:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.852, duration_ms=852, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 04:24:21], mode=PLATFORM_GENERATION, duration=0:00:07.707, duration_ms=7707, data={name=Lab01Plat}
+timestamp=[2021-12-03 04:24:39], mode=PLATFORM_GENERATION, duration=0:00:13.224, duration_ms=13224, data={name=Lab01Plat}
+timestamp=[2021-12-03 04:31:26], mode=WORKBENCH_START, duration=0:00:07.470, duration_ms=7470, data={}
+timestamp=[2021-12-03 04:31:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.903, duration_ms=903, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 04:31:59], mode=PLATFORM_GENERATION, duration=0:00:07.475, duration_ms=7475, data={name=Lab01Plat}
+timestamp=[2021-12-03 04:32:14], mode=PLATFORM_GENERATION, duration=0:00:13.122, duration_ms=13122, data={name=Lab01Plat}
+timestamp=[2021-12-03 04:34:37], mode=WORKBENCH_START, duration=0:00:06.657, duration_ms=6657, data={}
+timestamp=[2021-12-03 04:34:37], mode=WORKBENCH_UI_INIT, duration=0:00:00.595, duration_ms=595, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 04:34:56], mode=PLATFORM_GENERATION, duration=0:00:11.749, duration_ms=11749, data={name=Lab01Plat}
+timestamp=[2021-12-03 04:44:28], mode=WORKBENCH_START, duration=0:00:07.425, duration_ms=7425, data={}
+timestamp=[2021-12-03 04:44:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.692, duration_ms=692, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 04:57:13], mode=WORKBENCH_START, duration=0:00:06.723, duration_ms=6723, data={}
+timestamp=[2021-12-03 04:57:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.649, duration_ms=649, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 11:37:43], mode=WORKBENCH_START, duration=0:00:06.811, duration_ms=6811, data={}
+timestamp=[2021-12-03 11:37:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.630, duration_ms=630, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab01Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-03 11:56:53], mode=PLATFORM_CREATION, duration=0:00:07.022, duration_ms=7022, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2021-12-03 11:59:01], mode=APP_CREATION, duration=0:00:04.316, duration_ms=4316, data={name=Lab02App, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=Lab02Plat, application_type=application}
+timestamp=[2021-12-03 12:05:54], mode=PLATFORM_GENERATION, duration=0:00:13.962, duration_ms=13962, data={name=Lab02Plat}
+timestamp=[2021-12-03 15:54:59], mode=WORKBENCH_START, duration=0:00:11.198, duration_ms=11198, data={}
+timestamp=[2021-12-03 15:55:00], mode=WORKBENCH_UI_INIT, duration=0:00:01.242, duration_ms=1242, data={editors_count=8, platform_editors_count=2, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Lab01Plat,Lab02App,Lab02App_system,Lab02Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-09 21:52:39], mode=WORKBENCH_START, duration=0:00:07.717, duration_ms=7717, data={}
+timestamp=[2021-12-09 21:52:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.695, duration_ms=695, data={editors_count=8, platform_editors_count=2, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Lab01Plat,Lab02App,Lab02App_system,Lab02Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-09 22:10:29], mode=WORKBENCH_START, duration=0:00:06.524, duration_ms=6524, data={}
+timestamp=[2021-12-09 22:10:30], mode=WORKBENCH_UI_INIT, duration=0:00:00.723, duration_ms=723, data={editors_count=8, platform_editors_count=2, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Lab01Plat,Lab02App,Lab02App_system,Lab02Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}
+timestamp=[2021-12-10 12:16:30], mode=WORKBENCH_START, duration=0:00:07.873, duration_ms=7873, data={}
+timestamp=[2021-12-10 12:16:31], mode=WORKBENCH_UI_INIT, duration=0:00:00.719, duration_ms=719, data={editors_count=8, platform_editors_count=2, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Lab01Plat,Lab02App,Lab02App_system,Lab02Plat,RemoteSystemsTempFiles,mem_test,mem_test_system}

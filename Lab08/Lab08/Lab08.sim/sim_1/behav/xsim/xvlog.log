@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/skillet/git/ECE530/Lab08/Lab08/Lab08.srcs/sources_1/imports/Lab8 UART Source Files-20220114/BaudRateGenerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BaudRateGenerator
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/skillet/git/ECE530/Lab08/Lab08/Lab08.srcs/sim_1/imports/Lab8 UART Source Files-20220114/BaudRateGeneratorTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BaudRateGeneratorTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/skillet/git/ECE530/Lab08/Lab08/Lab08.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

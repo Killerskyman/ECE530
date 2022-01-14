@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Jan 14 03:18:10 2022
+# Process ID: 32670
+# Current directory: /home/skillet/git/ECE530/Lab08/Lab08/Lab08.runs/synth_1
+# Command line: vivado -log uartTest2021winter530.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uartTest2021winter530.tcl
+# Log file: /home/skillet/git/ECE530/Lab08/Lab08/Lab08.runs/synth_1/uartTest2021winter530.vds
+# Journal file: /home/skillet/git/ECE530/Lab08/Lab08/Lab08.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source uartTest2021winter530.tcl -notrace

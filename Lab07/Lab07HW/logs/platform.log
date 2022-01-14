@@ -1,0 +1,2515 @@
+TRACE::2022-01-10.22:17:39::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:39::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:39::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:41::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:41::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:41::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-01-10.22:17:42::SCWPlatform::Opened new HwDB with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:42::SCWWriter::formatted JSON is {
+	"platformName":	"Lab07HW",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Lab07HW",
+	"platHandOff":	"/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interrupt_counter_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-01-10.22:17:42::SCWWriter::formatted JSON is {
+	"platformName":	"Lab07HW",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Lab07HW",
+	"platHandOff":	"/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interrupt_counter_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Lab07HW",
+	"systems":	[{
+			"systemName":	"Lab07HW",
+			"systemDesc":	"Lab07HW",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Lab07HW"
+		}]
+}
+TRACE::2022-01-10.22:17:42::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-01-10.22:17:42::SCWDomain::checking for install qemu data   : 
+TRACE::2022-01-10.22:17:42::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2022-01-10.22:17:42::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-01-10.22:17:42::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:42::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:42::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:42::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:42::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:42::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:42::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:42::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:42::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2022-01-10.22:17:42::SCWPlatform::Generating the sources  .
+TRACE::2022-01-10.22:17:42::SCWBDomain::Generating boot domain sources.
+TRACE::2022-01-10.22:17:42::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2022-01-10.22:17:42::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:42::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:42::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:42::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:42::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:42::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-01-10.22:17:42::SCWMssOS::No sw design opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:42::SCWMssOS::mss does not exists at /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:42::SCWMssOS::Creating sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:42::SCWMssOS::Adding the swdes entry, created swdb /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:42::SCWMssOS::updating the scw layer changes to swdes at   /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:42::SCWMssOS::Writing mss at /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:42::SCWMssOS::Completed writing the mss file at /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-01-10.22:17:42::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-01-10.22:17:42::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-01-10.22:17:42::SCWBDomain::Completed writing the mss file at /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-01-10.22:17:47::SCWPlatform::Generating sources Done.
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2022-01-10.22:17:47::SCWMssOS::Could not open the swdb for /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2022-01-10.22:17:47::SCWMssOS::Could not open the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-01-10.22:17:47::SCWMssOS::No sw design opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::mss exists loading the mss file  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Opened the sw design from mss  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Adding the swdes entry /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-01-10.22:17:47::SCWMssOS::updating the scw layer about changes
+TRACE::2022-01-10.22:17:47::SCWMssOS::Opened the sw design.  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWWriter::formatted JSON is {
+	"platformName":	"Lab07HW",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Lab07HW",
+	"platHandOff":	"/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interrupt_counter_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Lab07HW",
+	"systems":	[{
+			"systemName":	"Lab07HW",
+			"systemDesc":	"Lab07HW",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Lab07HW",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"da90782683c40e60af661cecd0327a06",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-01-10.22:17:47::SCWDomain::checking for install qemu data   : 
+TRACE::2022-01-10.22:17:47::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2022-01-10.22:17:47::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::No sw design opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::mss does not exists at /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Creating sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Adding the swdes entry, created swdb /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::updating the scw layer changes to swdes at   /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Writing mss at /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Completed writing the mss file at /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-01-10.22:17:47::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-01-10.22:17:47::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|/home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|/home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|/home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|/home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|/home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|/home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWWriter::formatted JSON is {
+	"platformName":	"Lab07HW",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Lab07HW",
+	"platHandOff":	"/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interrupt_counter_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Lab07HW",
+	"systems":	[{
+			"systemName":	"Lab07HW",
+			"systemDesc":	"Lab07HW",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Lab07HW",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"da90782683c40e60af661cecd0327a06",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|/home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Completed writing the mss file at /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-01-10.22:17:47::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2022-01-10.22:17:47::SCWPlatform::Started generating the artifacts platform Lab07HW
+TRACE::2022-01-10.22:17:47::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-01-10.22:17:47::SCWPlatform::Started generating the artifacts for system configuration Lab07HW
+LOG::2022-01-10.22:17:47::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-01-10.22:17:47::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-01-10.22:17:47::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-01-10.22:17:47::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-01-10.22:17:47::SCWSystem::Checking the domain standalone_domain
+LOG::2022-01-10.22:17:47::SCWSystem::Not a boot domain 
+LOG::2022-01-10.22:17:47::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-01-10.22:17:47::SCWDomain::Generating domain artifcats
+TRACE::2022-01-10.22:17:47::SCWMssOS::Generating standalone artifcats
+TRACE::2022-01-10.22:17:47::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To /home/skillet/git/ECE530/Lab07/Lab07HW/export/Lab07HW/sw/Lab07HW/qemu/
+TRACE::2022-01-10.22:17:47::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To /home/skillet/git/ECE530/Lab07/Lab07HW/export/Lab07HW/sw/Lab07HW/standalone_domain/qemu/
+TRACE::2022-01-10.22:17:47::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|/home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2022-01-10.22:17:47::SCWMssOS::Could not open the swdb for /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+KEYINFO::2022-01-10.22:17:47::SCWMssOS::Could not open the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-01-10.22:17:47::SCWMssOS::No sw design opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::mss exists loading the mss file  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Opened the sw design from mss  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Adding the swdes entry /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-01-10.22:17:47::SCWMssOS::updating the scw layer about changes
+TRACE::2022-01-10.22:17:47::SCWMssOS::Opened the sw design.  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::Completed writing the mss file at /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-01-10.22:17:47::SCWMssOS::Mss edits present, copying mssfile into export location /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-01-10.22:17:47::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-01-10.22:17:47::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-01-10.22:17:47::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-01-10.22:17:47::SCWMssOS::Copying to export directory.
+TRACE::2022-01-10.22:17:47::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-01-10.22:17:47::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2022-01-10.22:17:47::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2022-01-10.22:17:47::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-01-10.22:17:47::SCWSystem::Completed Processing the sysconfig Lab07HW
+LOG::2022-01-10.22:17:47::SCWPlatform::Completed generating the artifacts for system configuration Lab07HW
+TRACE::2022-01-10.22:17:47::SCWPlatform::Started preparing the platform 
+TRACE::2022-01-10.22:17:47::SCWSystem::Writing the bif file for system config Lab07HW
+TRACE::2022-01-10.22:17:47::SCWSystem::dir created 
+TRACE::2022-01-10.22:17:47::SCWSystem::Writing the bif 
+TRACE::2022-01-10.22:17:47::SCWPlatform::Started writing the spfm file 
+TRACE::2022-01-10.22:17:47::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-01-10.22:17:47::SCWPlatform::Completed generating the platform
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWWriter::formatted JSON is {
+	"platformName":	"Lab07HW",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Lab07HW",
+	"platHandOff":	"/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interrupt_counter_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Lab07HW",
+	"systems":	[{
+			"systemName":	"Lab07HW",
+			"systemDesc":	"Lab07HW",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Lab07HW",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"da90782683c40e60af661cecd0327a06",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"e8544e13a1df7153b137df5c4cf7d20b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-01-10.22:17:47::SCWPlatform::updated the xpfm file.
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWWriter::formatted JSON is {
+	"platformName":	"Lab07HW",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Lab07HW",
+	"platHandOff":	"/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interrupt_counter_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Lab07HW",
+	"systems":	[{
+			"systemName":	"Lab07HW",
+			"systemDesc":	"Lab07HW",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Lab07HW",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"da90782683c40e60af661cecd0327a06",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"e8544e13a1df7153b137df5c4cf7d20b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWWriter::formatted JSON is {
+	"platformName":	"Lab07HW",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Lab07HW",
+	"platHandOff":	"/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interrupt_counter_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Lab07HW",
+	"systems":	[{
+			"systemName":	"Lab07HW",
+			"systemDesc":	"Lab07HW",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Lab07HW",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"da90782683c40e60af661cecd0327a06",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"e8544e13a1df7153b137df5c4cf7d20b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:47::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_0
+TRACE::2022-01-10.22:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:47::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:47::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:47::SCWWriter::formatted JSON is {
+	"platformName":	"Lab07HW",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Lab07HW",
+	"platHandOff":	"/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interrupt_counter_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Lab07HW",
+	"systems":	[{
+			"systemName":	"Lab07HW",
+			"systemDesc":	"Lab07HW",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Lab07HW",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"da90782683c40e60af661cecd0327a06",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"e8544e13a1df7153b137df5c4cf7d20b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-01-10.22:17:48::SCWPlatform::Clearing the existing platform
+TRACE::2022-01-10.22:17:48::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-01-10.22:17:48::SCWBDomain::clearing the fsbl build
+TRACE::2022-01-10.22:17:48::SCWMssOS::Removing the swdes entry for  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:48::SCWMssOS::Removing the swdes entry for  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:48::SCWSystem::Clearing the domains completed.
+TRACE::2022-01-10.22:17:48::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-01-10.22:17:48::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:48::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:48::SCWPlatform:: Platform location is /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:48::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:48::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:48::SCWPlatform::Removing the HwDB with name /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:48::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:48::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:48::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:48::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:48::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:48::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:48::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened new HwDB with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWReader::Active system found as  Lab07HW
+TRACE::2022-01-10.22:17:49::SCWReader::Handling sysconfig Lab07HW
+TRACE::2022-01-10.22:17:49::SCWDomain::checking for install qemu data   : 
+TRACE::2022-01-10.22:17:49::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2022-01-10.22:17:49::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-01-10.22:17:49::SCWMssOS::No sw design opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::mss exists loading the mss file  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Opened the sw design from mss  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Adding the swdes entry /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-01-10.22:17:49::SCWMssOS::updating the scw layer about changes
+TRACE::2022-01-10.22:17:49::SCWMssOS::Opened the sw design.  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2022-01-10.22:17:49::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-01-10.22:17:49::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWReader::No isolation master present  
+TRACE::2022-01-10.22:17:49::SCWDomain::checking for install qemu data   : 
+TRACE::2022-01-10.22:17:49::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2022-01-10.22:17:49::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::No sw design opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::mss exists loading the mss file  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Opened the sw design from mss  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Adding the swdes entry /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-01-10.22:17:49::SCWMssOS::updating the scw layer about changes
+TRACE::2022-01-10.22:17:49::SCWMssOS::Opened the sw design.  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-01-10.22:17:49::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWReader::No isolation master present  
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::In reload Mss file.
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2022-01-10.22:17:49::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2022-01-10.22:17:49::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-01-10.22:17:49::SCWMssOS::No sw design opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::mss exists loading the mss file  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Opened the sw design from mss  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Adding the swdes entry /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-01-10.22:17:49::SCWMssOS::updating the scw layer about changes
+TRACE::2022-01-10.22:17:49::SCWMssOS::Opened the sw design.  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Removing the swdes entry for  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::In reload Mss file.
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::No sw design opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::mss exists loading the mss file  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Opened the sw design from mss  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Adding the swdes entry /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-01-10.22:17:49::SCWMssOS::updating the scw layer about changes
+TRACE::2022-01-10.22:17:49::SCWMssOS::Opened the sw design.  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:49::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:49::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:49::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:49::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:17:49::SCWMssOS::Removing the swdes entry for  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+LOG::2022-01-10.22:17:57::SCWPlatform::Started generating the artifacts platform Lab07HW
+TRACE::2022-01-10.22:17:57::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-01-10.22:17:57::SCWPlatform::Started generating the artifacts for system configuration Lab07HW
+LOG::2022-01-10.22:17:57::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-01-10.22:17:57::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-01-10.22:17:57::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-01-10.22:17:57::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2022-01-10.22:17:57::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:57::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:57::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:57::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:17:57::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:17:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:17:57::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:57::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:17:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:17:57::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:57::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:17:57::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:17:57::SCWBDomain::Completed writing the mss file at /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-01-10.22:17:57::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-01-10.22:17:57::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-01-10.22:17:57::SCWBDomain::System Command Ran  cd  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl ; bash -c "make  " 
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C zynq_fsbl_bsp
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[1]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_2/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-01-10.22:17:57::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-01-10.22:17:57::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+TRACE::2022-01-10.22:17:57::SCWBDomain::'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2022-01-10.22:17:57::SCWBDomain::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2022-01-10.22:17:57::SCWBDomain::hard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_
+TRACE::2022-01-10.22:17:57::SCWBDomain::v2_8/src'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v
+TRACE::2022-01-10.22:17:57::SCWBDomain::2_8/src'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-01-10.22:17:57::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-01-10.22:17:57::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src
+TRACE::2022-01-10.22:17:57::SCWBDomain::'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2022-01-10.22:17:57::SCWBDomain::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2022-01-10.22:17:57::SCWBDomain::bi=hard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_d
+TRACE::2022-01-10.22:17:57::SCWBDomain::cc_v1_6/src'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dc
+TRACE::2022-01-10.22:17:57::SCWBDomain::c_v1_6/src'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-01-10.22:17:57::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-01-10.22:17:57::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/src
+TRACE::2022-01-10.22:17:57::SCWBDomain::'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/src'
+TRACE::2022-01-10.22:17:57::SCWBDomain::
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-01-10.22:17:57::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-01-10.22:17:57::SCWBDomain::-nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/
+TRACE::2022-01-10.22:17:57::SCWBDomain::src'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_10/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2022-01-10.22:17:57::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2022-01-10.22:17:57::SCWBDomain::rd -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7
+TRACE::2022-01-10.22:17:57::SCWBDomain::_1/src'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[3]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7
+TRACE::2022-01-10.22:17:57::SCWBDomain::_1/src/profile'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[3]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2022-01-10.22:17:57::SCWBDomain::1/src/profile'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2022-01-10.22:17:57::SCWBDomain::1/src'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:17:57::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:17:57::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_5/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpio_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-01-10.22:17:57::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-01-10.22:17:57::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpio_v4_5/src
+TRACE::2022-01-10.22:17:57::SCWBDomain::'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpio_v4_5/src'
+TRACE::2022-01-10.22:17:57::SCWBDomain::
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-01-10.22:17:57::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-01-10.22:17:57::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/sr
+TRACE::2022-01-10.22:17:57::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/src
+TRACE::2022-01-10.22:17:57::SCWBDomain::'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-01-10.22:17:57::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-01-10.22:17:57::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1
+TRACE::2022-01-10.22:17:57::SCWBDomain::/src'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/
+TRACE::2022-01-10.22:17:57::SCWBDomain::src'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_2/src
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:17:57::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:17:57::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/s
+TRACE::2022-01-10.22:17:57::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:57::SCWBDomain::Compiling XilFFs Library
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/sr
+TRACE::2022-01-10.22:17:58::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-01-10.22:17:58::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-01-10.22:17:58::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/sr
+TRACE::2022-01-10.22:17:58::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::Compiling ddrps
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+TRACE::2022-01-10.22:17:58::SCWBDomain::'
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2022-01-10.22:17:58::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2022-01-10.22:17:58::SCWBDomain::d -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_
+TRACE::2022-01-10.22:17:58::SCWBDomain::v2_8/src'
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::Compiling cpu_cortexa9
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v
+TRACE::2022-01-10.22:17:58::SCWBDomain::2_8/src'
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-01-10.22:17:58::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-01-10.22:17:58::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/sr
+TRACE::2022-01-10.22:17:58::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::Compiling dmaps
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src
+TRACE::2022-01-10.22:17:58::SCWBDomain::'
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:17:58::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:17:58::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:58::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/s
+TRACE::2022-01-10.22:17:58::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/sr
+TRACE::2022-01-10.22:17:59::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2022-01-10.22:17:59::SCWBDomain::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2022-01-10.22:17:59::SCWBDomain::hard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_d
+TRACE::2022-01-10.22:17:59::SCWBDomain::cc_v1_6/src'
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::Compiling coresightps_dcc
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dc
+TRACE::2022-01-10.22:17:59::SCWBDomain::c_v1_6/src'
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:17:59::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:17:59::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/s
+TRACE::2022-01-10.22:17:59::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::Compiling scuwdt
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/sr
+TRACE::2022-01-10.22:17:59::SCWBDomain::c'
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_8/src
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-01-10.22:17:59::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-01-10.22:17:59::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/src
+TRACE::2022-01-10.22:17:59::SCWBDomain::'
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::Compiling sdps
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/src'
+TRACE::2022-01-10.22:17:59::SCWBDomain::
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-01-10.22:17:59::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-01-10.22:17:59::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/
+TRACE::2022-01-10.22:17:59::SCWBDomain::src'
+
+TRACE::2022-01-10.22:17:59::SCWBDomain::Compiling emacps
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/s
+TRACE::2022-01-10.22:18:00::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_10/src
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:00::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:00::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/s
+TRACE::2022-01-10.22:18:00::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::Compiling ttcps
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/sr
+TRACE::2022-01-10.22:18:00::SCWBDomain::c'
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:00::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:00::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/s
+TRACE::2022-01-10.22:18:00::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::Compiling scugic
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/sr
+TRACE::2022-01-10.22:18:00::SCWBDomain::c'
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:00::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:00::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/s
+TRACE::2022-01-10.22:18:00::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:18:00::SCWBDomain::Compiling qspips
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/sr
+TRACE::2022-01-10.22:18:01::SCWBDomain::c'
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:01::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:01::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/s
+TRACE::2022-01-10.22:18:01::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::Compiling xadcps
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/sr
+TRACE::2022-01-10.22:18:01::SCWBDomain::c'
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:01::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:01::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/s
+TRACE::2022-01-10.22:18:01::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:18:01::SCWBDomain::Compiling gpiops
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/sr
+TRACE::2022-01-10.22:18:02::SCWBDomain::c'
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:02::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:02::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/s
+TRACE::2022-01-10.22:18:02::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::Compiling devcfg
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/sr
+TRACE::2022-01-10.22:18:02::SCWBDomain::c'
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-01-10.22:18:02::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-01-10.22:18:02::SCWBDomain::-nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7
+TRACE::2022-01-10.22:18:02::SCWBDomain::_1/src'
+
+TRACE::2022-01-10.22:18:02::SCWBDomain::Compiling standalone
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2022-01-10.22:18:04::SCWBDomain::1/src'
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:04::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:04::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/s
+TRACE::2022-01-10.22:18:04::SCWBDomain::rc'
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::Compiling uartps
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/sr
+TRACE::2022-01-10.22:18:04::SCWBDomain::c'
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_5/src
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpio_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-01-10.22:18:04::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-01-10.22:18:04::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpio_v4_5/src
+TRACE::2022-01-10.22:18:04::SCWBDomain::'
+
+TRACE::2022-01-10.22:18:04::SCWBDomain::Compiling gpio
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpio_v4_5/src'
+TRACE::2022-01-10.22:18:05::SCWBDomain::
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-01-10.22:18:05::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-01-10.22:18:05::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/sr
+TRACE::2022-01-10.22:18:05::SCWBDomain::c'
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::Compiling usbps
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/src
+TRACE::2022-01-10.22:18:05::SCWBDomain::'
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-01-10.22:18:05::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-01-10.22:18:05::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::make[2]: Entering directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1
+TRACE::2022-01-10.22:18:05::SCWBDomain::/src'
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::Compiling scutimer
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::make[2]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/
+TRACE::2022-01-10.22:18:05::SCWBDomain::src'
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::Finished building libraries
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::make[1]: Leaving directory '/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2022-01-10.22:18:05::SCWBDomain::9_0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2022-01-10.22:18:05::SCWBDomain::9_0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2022-01-10.22:18:05::SCWBDomain::0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c main.c -o main.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2022-01-10.22:18:05::SCWBDomain::9_0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_fsbl_bsp
+TRACE::2022-01-10.22:18:05::SCWBDomain::/ps7_cortexa9_0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2022-01-10.22:18:05::SCWBDomain::0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c image_mover.c -o image_mover.o -Izynq_fsbl_b
+TRACE::2022-01-10.22:18:05::SCWBDomain::sp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c ps7_init.c -o ps7_init.o -Izynq_fsbl_bsp/ps7
+TRACE::2022-01-10.22:18:05::SCWBDomain::_cortexa9_0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2022-01-10.22:18:05::SCWBDomain::0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2022-01-10.22:18:05::SCWBDomain::9_0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cortexa9_0/
+TRACE::2022-01-10.22:18:05::SCWBDomain::include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_handoff.S -o fsbl_handoff.o -Izynq_fsbl
+TRACE::2022-01-10.22:18:05::SCWBDomain::_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-01-10.22:18:05::SCWBDomain::arm-none-eabi-gcc -o executable.elf  pcap.o  qspi.o  rsa.o  main.o  fsbl_hooks.o  md5.o  image_mover.o  ps7_init.o  nor.o  nand
+TRACE::2022-01-10.22:18:05::SCWBDomain::.o  sd.o  fsbl_handoff.o  -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2022-01-10.22:18:05::SCWBDomain::=hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lx
+TRACE::2022-01-10.22:18:05::SCWBDomain::il,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                      -Wl,--gc-sect
+TRACE::2022-01-10.22:18:05::SCWBDomain::ions -Lzynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2022-01-10.22:18:06::SCWSystem::Checking the domain standalone_domain
+LOG::2022-01-10.22:18:06::SCWSystem::Not a boot domain 
+LOG::2022-01-10.22:18:06::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-01-10.22:18:06::SCWDomain::Generating domain artifcats
+TRACE::2022-01-10.22:18:06::SCWMssOS::Generating standalone artifcats
+TRACE::2022-01-10.22:18:06::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To /home/skillet/git/ECE530/Lab07/Lab07HW/export/Lab07HW/sw/Lab07HW/qemu/
+TRACE::2022-01-10.22:18:06::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To /home/skillet/git/ECE530/Lab07/Lab07HW/export/Lab07HW/sw/Lab07HW/standalone_domain/qemu/
+TRACE::2022-01-10.22:18:06::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-01-10.22:18:06::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:06::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:06::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:06::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:18:06::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:18:06::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:18:06::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:18:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:18:06::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:18:06::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::No sw design opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:18:06::SCWMssOS::mss exists loading the mss file  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:18:06::SCWMssOS::Opened the sw design from mss  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:18:06::SCWMssOS::Adding the swdes entry /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-01-10.22:18:06::SCWMssOS::updating the scw layer about changes
+TRACE::2022-01-10.22:18:06::SCWMssOS::Opened the sw design.  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:18:06::SCWMssOS::Completed writing the mss file at /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-01-10.22:18:06::SCWMssOS::Mss edits present, copying mssfile into export location /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:18:06::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-01-10.22:18:06::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-01-10.22:18:06::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-01-10.22:18:06::SCWMssOS::doing bsp build ... 
+TRACE::2022-01-10.22:18:06::SCWMssOS::System Command Ran  cd  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-01-10.22:18:06::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-01-10.22:18:06::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2022-01-10.22:18:06::SCWMssOS::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2022-01-10.22:18:06::SCWMssOS::hard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-01-10.22:18:06::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-01-10.22:18:06::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2022-01-10.22:18:06::SCWMssOS::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2022-01-10.22:18:06::SCWMssOS::bi=hard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:18:06::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:18:06::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-01-10.22:18:06::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-01-10.22:18:06::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-01-10.22:18:06::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-01-10.22:18:06::SCWMssOS::-nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_10/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:18:06::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:18:06::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:18:06::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:18:06::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:18:06::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:18:06::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:18:06::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:18:06::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:18:06::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:18:06::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:18:06::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:18:06::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2022-01-10.22:18:06::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2022-01-10.22:18:06::SCWMssOS::rd -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-01-10.22:18:06::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-01-10.22:18:06::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_5/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpio_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-01-10.22:18:06::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-01-10.22:18:06::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-01-10.22:18:06::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-01-10.22:18:06::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-01-10.22:18:06::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-01-10.22:18:06::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-01-10.22:18:06::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-01-10.22:18:06::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Compiling ddrps
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2022-01-10.22:18:06::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2022-01-10.22:18:06::SCWMssOS::d -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Compiling cpu_cortexa9
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-01-10.22:18:06::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-01-10.22:18:06::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Compiling dmaps
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2022-01-10.22:18:06::SCWMssOS::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2022-01-10.22:18:06::SCWMssOS::hard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Compiling coresightps_dcc
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:06::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:06::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Compiling scuwdt
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_8/src
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-01-10.22:18:06::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-01-10.22:18:06::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:06::SCWMssOS::Compiling sdps
+
+TRACE::2022-01-10.22:18:07::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src
+
+TRACE::2022-01-10.22:18:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-01-10.22:18:07::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-01-10.22:18:07::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:07::SCWMssOS::Compiling emacps
+
+TRACE::2022-01-10.22:18:07::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_10/src
+
+TRACE::2022-01-10.22:18:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:07::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:07::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:07::SCWMssOS::Compiling ttcps
+
+TRACE::2022-01-10.22:18:08::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src
+
+TRACE::2022-01-10.22:18:08::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:08::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:08::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:08::SCWMssOS::Compiling scugic
+
+TRACE::2022-01-10.22:18:08::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+
+TRACE::2022-01-10.22:18:08::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:08::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:08::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:08::SCWMssOS::Compiling qspips
+
+TRACE::2022-01-10.22:18:08::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+
+TRACE::2022-01-10.22:18:08::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:08::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:08::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:08::SCWMssOS::Compiling xadcps
+
+TRACE::2022-01-10.22:18:09::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src
+
+TRACE::2022-01-10.22:18:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:09::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:09::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:09::SCWMssOS::Compiling gpiops
+
+TRACE::2022-01-10.22:18:09::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+
+TRACE::2022-01-10.22:18:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:09::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:09::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:09::SCWMssOS::Compiling devcfg
+
+TRACE::2022-01-10.22:18:10::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src
+
+TRACE::2022-01-10.22:18:10::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-01-10.22:18:10::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-01-10.22:18:10::SCWMssOS::-nostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:10::SCWMssOS::Compiling standalone
+
+TRACE::2022-01-10.22:18:11::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src
+
+TRACE::2022-01-10.22:18:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-01-10.22:18:11::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-01-10.22:18:11::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:11::SCWMssOS::Compiling uartps
+
+TRACE::2022-01-10.22:18:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_5/src
+
+TRACE::2022-01-10.22:18:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpio_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-01-10.22:18:12::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-01-10.22:18:12::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:12::SCWMssOS::Compiling gpio
+
+TRACE::2022-01-10.22:18:12::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+
+TRACE::2022-01-10.22:18:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-01-10.22:18:12::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-01-10.22:18:12::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:12::SCWMssOS::Compiling usbps
+
+TRACE::2022-01-10.22:18:13::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+
+TRACE::2022-01-10.22:18:13::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-01-10.22:18:13::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-01-10.22:18:13::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2022-01-10.22:18:13::SCWMssOS::Compiling scutimer
+
+TRACE::2022-01-10.22:18:13::SCWMssOS::Finished building libraries
+
+TRACE::2022-01-10.22:18:13::SCWMssOS::Copying to export directory.
+TRACE::2022-01-10.22:18:13::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-01-10.22:18:13::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-01-10.22:18:13::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-01-10.22:18:13::SCWSystem::Completed Processing the sysconfig Lab07HW
+LOG::2022-01-10.22:18:13::SCWPlatform::Completed generating the artifacts for system configuration Lab07HW
+TRACE::2022-01-10.22:18:13::SCWPlatform::Started preparing the platform 
+TRACE::2022-01-10.22:18:13::SCWSystem::Writing the bif file for system config Lab07HW
+TRACE::2022-01-10.22:18:13::SCWSystem::dir created 
+TRACE::2022-01-10.22:18:13::SCWSystem::Writing the bif 
+TRACE::2022-01-10.22:18:13::SCWPlatform::Started writing the spfm file 
+TRACE::2022-01-10.22:18:13::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-01-10.22:18:13::SCWPlatform::Completed generating the platform
+TRACE::2022-01-10.22:18:13::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:18:13::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:18:13::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:18:13::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:18:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:18:13::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:18:13::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:18:13::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-01-10.22:18:13::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:18:13::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:18:13::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:18:13::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:18:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:18:13::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:18:13::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:18:13::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:18:13::SCWWriter::formatted JSON is {
+	"platformName":	"Lab07HW",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Lab07HW",
+	"platHandOff":	"/home/skillet/git/ECE530/Lab07/wrapper/interrupt_counter_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interrupt_counter_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Lab07HW",
+	"systems":	[{
+			"systemName":	"Lab07HW",
+			"systemDesc":	"Lab07HW",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Lab07HW",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"da90782683c40e60af661cecd0327a06",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"e8544e13a1df7153b137df5c4cf7d20b",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-01-10.22:18:13::SCWPlatform::updated the xpfm file.
+TRACE::2022-01-10.22:18:13::SCWPlatform::Trying to open the hw design at /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform::DSA given /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform::DSA absoulate path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform::DSA directory /home/skillet/git/ECE530/Lab07/Lab07HW/hw
+TRACE::2022-01-10.22:18:13::SCWPlatform:: Platform Path /home/skillet/git/ECE530/Lab07/Lab07HW/hw/interrupt_counter_wrapper.xsa
+TRACE::2022-01-10.22:18:13::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2022-01-10.22:18:13::SCWPlatform::Trying to set the existing hwdb with name interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:18:13::SCWPlatform::Opened existing hwdb interrupt_counter_wrapper_1
+TRACE::2022-01-10.22:18:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-10.22:18:13::SCWMssOS::Checking the sw design at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-10.22:18:13::SCWMssOS::DEBUG:  swdes dump  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/skillet/git/ECE530/Lab07/Lab07HW/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-01-10.22:18:13::SCWMssOS::Sw design exists and opened at  /home/skillet/git/ECE530/Lab07/Lab07HW/ps7_cortexa9_0/standalone_domain/bsp/system.mss

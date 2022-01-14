@@ -1,0 +1,30 @@
+12:06:04 **** Build of configuration Debug for project Lab02App ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/lab2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab02Plat/export/Lab02Plat/sw/Lab02Plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.o" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c: In function 'main':
+../src/lab2.c:28:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+    strsep
+Finished building: ../src/lab2.c
+ 
+Building target: Lab02App.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/skillet/git/ECE530/Lab02Plat/export/Lab02Plat/sw/Lab02Plat/standalone_domain/bsplib/lib -o "Lab02App.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab02App.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab02App.elf  |tee "Lab02App.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30872	   1576	  23272	  55720	   d9a8	Lab02App.elf
+Finished building: Lab02App.elf.size
+ 
+
+12:06:04 Build Finished (took 316ms)
+

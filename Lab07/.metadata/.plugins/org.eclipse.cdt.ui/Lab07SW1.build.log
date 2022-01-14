@@ -1,0 +1,25 @@
+22:24:37 **** Build of configuration Debug for project Lab07SW1 ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/interrupt_counter.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/interrupt_counter.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab07/Lab07HW/export/Lab07HW/sw/Lab07HW/standalone_domain/bspinclude/include -MMD -MP -MF"src/interrupt_counter.d" -MT"src/interrupt_counter.o" -o "src/interrupt_counter.o" "../src/interrupt_counter.c"
+Finished building: ../src/interrupt_counter.c
+ 
+Building target: Lab07SW1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/skillet/git/ECE530/Lab07/Lab07HW/export/Lab07HW/sw/Lab07HW/standalone_domain/bsplib/lib -o "Lab07SW1.elf"  ./src/interrupt_counter.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab07SW1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab07SW1.elf  |tee "Lab07SW1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24880	   1952	  22632	  49464	   c138	Lab07SW1.elf
+Finished building: Lab07SW1.elf.size
+ 
+
+22:24:38 Build Finished (took 316ms)
+

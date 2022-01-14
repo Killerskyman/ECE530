@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab08.srcs/sources_1/imports/Lab8 UART Source Files-20220114/BaudRateGenerator.v" \
+"../../../../Lab08.srcs/sim_1/imports/Lab8 UART Source Files-20220114/BaudRateGeneratorTB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

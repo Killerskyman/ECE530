@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.bss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.data=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.data1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.fixup=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.rodata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.rodata1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.sbss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.sbss2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.sdata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.sdata2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:.text=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:heap=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:heap-size=1024
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:stack=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.Lab04sw\:stack-size=1024
+eclipse.preferences.version=1

@@ -1,0 +1,7 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/skillet/git/ECE530/Lab08/Lab08/Lab08.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/home/skillet/git/ECE530/Lab08/Lab08/Lab08.srcs/sim_1/imports/Lab8 UART Source Files-20220114/BaudRateGeneratorTB.v,1642147734,verilog,,,,BaudRateGeneratorTB,,,,,,,,
+/home/skillet/git/ECE530/Lab08/Lab08/Lab08.srcs/sources_1/imports/Lab8 UART Source Files-20220114/BaudRateGenerator.v,1642147734,verilog,,/home/skillet/git/ECE530/Lab08/Lab08/Lab08.srcs/sim_1/imports/Lab8 UART Source Files-20220114/BaudRateGeneratorTB.v,,BaudRateGenerator,,,,,,,,

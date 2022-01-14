@@ -1,0 +1,2782 @@
+!SESSION 2022-01-13 11:01:11.362 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/skillet/git/ECE530/Lab07c/.metadata/.bak_0.log
+Created Time: 2022-01-13 11:02:09.990
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:09.990
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.017
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0], Result: [null, {"switches_S_AXI": {"name": "switches",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"buttons_S_AXI": {"name": "buttons",
+"base": "0x41210000",
+"high": "0x4121FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x42800000",
+"high": "0x4280FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"led_IP_0_S_AXI": {"name": "led_IP_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_bram_ctrl_0_S_AXI_Mem0": {"name": "axi_bram_ctrl_0",
+"base": "0x40000000",
+"high": "0x40001FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem0",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.018
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.020
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.020
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.021
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.021
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.023
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.023
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.025
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.026
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.030
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.031
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.034
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.035
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.040
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.042
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.089
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1], Result: [null, {"axi_bram_ctrl_0": {},
+"axi_timer_0": {"TCSR0": {"description": "Timer 0 Control and Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Mode
+0 - Timer mode is generate
+1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT0": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 0
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT0": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 0
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT0": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 0
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT0": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 0.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.      0 = Hold counter or capture value. The TLR must be read before providing the external capture.      1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD0": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 0      0 = No load      1 = Loads timer with value in TLR0 Setting this bit loads timer/counter register (TCR0) with a specified value in the timer/counter load register (TLR0).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT0) bit in TCSR0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT0": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 0
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T0INT) in TCSR0.      0 - Disable interrupt signal   1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT0": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 0
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T0INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT   1 - Clear T0INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA0": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 0      0 - Disable pulse width modulation      1 - Enable pulse width modulation PWM requires using Timer 0 and Timer 1 together as a pair.  Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0 and C_GEN0_ASSERT and C_GEN1_ASSERT must be 1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run) This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. 
+Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CASC": {"access": "read-write",
+"bit_offset": "11",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable cascade mode of timers      0 - Disable cascaded operation      1 - Enable cascaded operation Cascaded operation requires using Timer 0 and Timer 1 together as a pair.  The counting event for the Timer 1 is when the Timer 0 rolls over from all 1s to all 0s or vice-versa when counting down.
+TLR0 and TLR1 are used for lower 32-bit and higher 32-bit respectively. Similarly, TCR0 contains lower 32-bits for the 64-bit counter and TCR1 contains the higher 32-bits.
+Only TCSR0 is valid for both the timer/counters in this mode.
+This CASC bit must be set before enabling the timer/counter.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1115684864,
+},
+"TLR0": {"description": "Timer 0 Load Register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1115684868,
+},
+"TCR0": {"description": "Timer 0 Counter Register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR0": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1115684872,
+},
+"TCSR1": {"description": "Timer 1 Control and Status Register",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Mode
+  0 - Timer mode is generate
+  1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT1": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 1
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT1": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 1
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT1": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 1
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT1": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 1.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.
+0 = Hold counter or capture value. The TLR must be read before providing the external capture.   
+1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD1": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 1      0 = No load      1 = Loads timer with value in TLR1 Setting this bit loads timer/counter register (TCR1) with a specified value in the timer/counter load register (TLR1).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT1) bit in TCSR1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT1": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 1
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T1INT) in TCSR1.      0 - Disable interrupt signal      1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT1": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 1
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T1INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT      1 - Clear T1INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA1": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 1      0 - Disable pulse width modulation      1 - Enable pulse width modulation  PWM requires using Timer 0 and Timer 1 together as a pair. Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run)  This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1115684880,
+},
+"TLR1": {"description": "Timer 1 Load Register",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1115684884,
+},
+"TCR1": {"description": "Timer 1 Counter Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR1": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1115684888,
+},
+},
+"buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681728,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681732,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681736,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681740,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092682012,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092682024,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092682016,
+},
+},
+"led_IP_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_globaltimer_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+"switches": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616476,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616488,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616480,
+},
+},
+}]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.091
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.108
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1], Result: [null, {"switches_S_AXI": {"name": "switches",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"buttons_S_AXI": {"name": "buttons",
+"base": "0x41210000",
+"high": "0x4121FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x42800000",
+"high": "0x4280FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"led_IP_0_S_AXI": {"name": "led_IP_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_bram_ctrl_0_S_AXI_Mem0": {"name": "axi_bram_ctrl_0",
+"base": "0x40000000",
+"high": "0x40001FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem0",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.109
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.110
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.110
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.111
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.111
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.113
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.113
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.114
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.114
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.115
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.115
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.116
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.118
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.119
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa ps7_cortexa9_0], Result: [null, axi_bram_ctrl_0 axi_timer_0 buttons led_IP_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_1 ps7_xadc_0 switches]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.119
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa bit], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.120
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa bit], Result: [null, system_wrapper.bit]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.121
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.124
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.125
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.144
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279758512A]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.147
+!MESSAGE XSCT Command: [version -server], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.151
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.152
+!MESSAGE XSCT Command: [version], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.154
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.158
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.174
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279758512A]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.175
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.206
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.207
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.213
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279758512A]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.213
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.226
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.227
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.231
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279758512A]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.231
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.257
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.260
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.267
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279758512A]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.267
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.281
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.282
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.286
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279758512A]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.286
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.325
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.326
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.333
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279758512A]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.333
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.347
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.347
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279758512A" && level == 0}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.371
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279758512A" && level == 0}], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.372
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.374
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.375
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.385
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.385
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.459
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:10.460
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:13.465
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:13.509
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:13.516
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:13.516
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:13.541
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:13.541
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:13.566
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:13.567
+!MESSAGE XSCT Command: [fpga -file /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.777
+!MESSAGE XSCT command with result: [fpga -file /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.787
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.808
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.809
+!MESSAGE XSCT Command: [loadhw -hw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.898
+!MESSAGE XSCT command with result: [loadhw -hw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, system_wrapper]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.899
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.903
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.905
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.922
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.923
+!MESSAGE XSCT Command: [source /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/psinit/ps7_init.tcl], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.928
+!MESSAGE XSCT command with result: [source /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:14.928
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.162
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.162
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.167
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.167
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.173
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.173
+!MESSAGE XSCT Command: [dow /home/skillet/git/ECE530/Lab07c/Lab07cSW/Debug/Lab07cSW.elf], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.319
+!MESSAGE XSCT command with result: [dow /home/skillet/git/ECE530/Lab07c/Lab07cSW/Debug/Lab07cSW.elf], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.320
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.354
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.416
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.509
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.511
+!MESSAGE XSCT Command: [con], Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:02:15.518
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-2: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-13 11:02:15.527
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:04.340
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/sw/Lab07cHW/standalone_domain/system.mss ], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:04.347
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/sw/Lab07cHW/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:04.348
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/sw/Lab07cHW/standalone_domain/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:04.353
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/sw/Lab07cHW/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-13 11:08:04.354
+!MESSAGE Generating MD5 hash for file: /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/sw/Lab07cHW/standalone_domain/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:04.366
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/sw/Lab07cHW/standalone_domain/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:04.367
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/sw/Lab07cHW/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:13.739
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-146
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:13.749
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-146
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.754
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.760
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.761
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.770
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.770
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.771
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.771
+!MESSAGE XSCT Command: [version], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.772
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.772
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.777
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.777
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.792
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.792
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.797
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.797
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.810
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.811
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.815
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.815
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.826
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.826
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.830
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.831
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.842
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.842
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.846
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.846
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.858
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.858
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.862
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.862
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.874
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.874
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279758512A" && level == 0}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.886
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279758512A" && level == 0}], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.887
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.888
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.888
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.897
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.898
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.953
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:14.953
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:17.957
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:17.995
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:18.003
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:18.003
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:18.019
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:18.019
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:18.064
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:18.065
+!MESSAGE XSCT Command: [fpga -file /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:19.280
+!MESSAGE XSCT command with result: [fpga -file /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:19.305
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:19.322
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:19.322
+!MESSAGE XSCT Command: [loadhw -hw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.488
+!MESSAGE XSCT command with result: [loadhw -hw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, system_wrapper_0]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.489
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.490
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.490
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.496
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.497
+!MESSAGE XSCT Command: [source /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/psinit/ps7_init.tcl], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.498
+!MESSAGE XSCT command with result: [source /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.498
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.904
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.908
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.925
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.926
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.946
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:20.947
+!MESSAGE XSCT Command: [dow /home/skillet/git/ECE530/Lab07c/Lab07cSW/Debug/Lab07cSW.elf], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:21.136
+!MESSAGE XSCT command with result: [dow /home/skillet/git/ECE530/Lab07c/Lab07cSW/Debug/Lab07cSW.elf], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:21.136
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:21.158
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:21.181
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:21.262
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:21.263
+!MESSAGE XSCT Command: [con], Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:08:21.268
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-13 11:08:21.269
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY org.eclipse.jface 4 0 2022-01-13 11:18:05.747
+!MESSAGE The command ("com.xilinx.ide.application.ui.perspectve") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:364)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:626)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:682)
+	at org.eclipse.jface.action.MenuManager.isChildVisible(MenuManager.java:982)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:752)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:472)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1396)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1375)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:779)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1935)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5898)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4084)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1383)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1626)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4516)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY org.eclipse.jface 4 0 2022-01-13 11:18:05.749
+!MESSAGE The command ("com.xilinx.sdk.performance.ui.PerformancePerspective") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:364)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:626)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:682)
+	at org.eclipse.jface.action.MenuManager.isChildVisible(MenuManager.java:982)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:752)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:472)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1396)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1375)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:779)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1935)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5898)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4084)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1383)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1626)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4516)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-13 11:18:08.467
+!MESSAGE Invalid preference category path: com.xilinx.sdk.ui.preferences.page (bundle: com.xilinx.sdk.ui.customize, page: com.xilinx.sdk.ui.customize.sdkCustomizationPreferences)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-13 11:18:08.467
+!MESSAGE Invalid preference category path: com.autoesl.autopilot.ui.startup.preferences.AutoPilotRootPreferencePage (bundle: com.autoesl.autopilot.ui.cdfg.diagram, page: com.autoesl.autopilot.ui.cdfg.diagram.general)
+
+!ENTRY com.xilinx.sdx.build.ui 4 0 2022-01-13 11:26:15.381
+!MESSAGE org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.getViewer()
+!STACK 0
+java.lang.NoSuchMethodException: org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.getViewer()
+	at java.base/java.lang.Class.getMethod(Unknown Source)
+	at com.xilinx.sdx.build.ui.console.ConfigurationBuildConsoleManager.getViewer(ConfigurationBuildConsoleManager.java:377)
+	at com.xilinx.sdx.build.ui.console.ConfigurationBuildConsoleManager.redrawTextViewer(ConfigurationBuildConsoleManager.java:363)
+	at com.xilinx.sdx.build.ui.console.ConfigurationBuildConsoleManager.propertyChange(ConfigurationBuildConsoleManager.java:354)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:345)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:342)
+	at org.eclipse.jface.preference.PreferenceConverter.setValue(PreferenceConverter.java:582)
+	at org.eclipse.jface.preference.ColorFieldEditor.doStore(ColorFieldEditor.java:117)
+	at org.eclipse.jface.preference.FieldEditor.store(FieldEditor.java:676)
+	at org.eclipse.jface.preference.FieldEditorPreferencePage.performOk(FieldEditorPreferencePage.java:344)
+	at org.eclipse.jface.preference.PreferencePage.performApply(PreferencePage.java:454)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:286)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at com.xilinx.ide.application.ui.preferences.CustomOpenPreferencesAction.run(CustomOpenPreferencesAction.java:69)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY com.xilinx.sdx.build.ui 4 0 2022-01-13 11:26:15.383
+!MESSAGE org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.getViewer()
+!STACK 0
+java.lang.NoSuchMethodException: org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.getViewer()
+	at java.base/java.lang.Class.getMethod(Unknown Source)
+	at com.xilinx.sdx.build.ui.console.ConfigurationBuildConsoleManager.getViewer(ConfigurationBuildConsoleManager.java:377)
+	at com.xilinx.sdx.build.ui.console.ConfigurationBuildConsoleManager.redrawTextViewer(ConfigurationBuildConsoleManager.java:363)
+	at com.xilinx.sdx.build.ui.console.ConfigurationBuildConsoleManager.propertyChange(ConfigurationBuildConsoleManager.java:354)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:345)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:342)
+	at org.eclipse.jface.preference.PreferenceConverter.setValue(PreferenceConverter.java:582)
+	at org.eclipse.jface.preference.ColorFieldEditor.doStore(ColorFieldEditor.java:117)
+	at org.eclipse.jface.preference.FieldEditor.store(FieldEditor.java:676)
+	at org.eclipse.jface.preference.FieldEditorPreferencePage.performOk(FieldEditorPreferencePage.java:344)
+	at org.eclipse.jface.preference.PreferencePage.performApply(PreferencePage.java:454)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:286)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at com.xilinx.ide.application.ui.preferences.CustomOpenPreferencesAction.run(CustomOpenPreferencesAction.java:69)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY com.xilinx.sdx.build.ui 4 0 2022-01-13 11:26:15.385
+!MESSAGE org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.getViewer()
+!STACK 0
+java.lang.NoSuchMethodException: org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.getViewer()
+	at java.base/java.lang.Class.getMethod(Unknown Source)
+	at com.xilinx.sdx.build.ui.console.ConfigurationBuildConsoleManager.getViewer(ConfigurationBuildConsoleManager.java:377)
+	at com.xilinx.sdx.build.ui.console.ConfigurationBuildConsoleManager.redrawTextViewer(ConfigurationBuildConsoleManager.java:363)
+	at com.xilinx.sdx.build.ui.console.ConfigurationBuildConsoleManager.propertyChange(ConfigurationBuildConsoleManager.java:354)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore$2.run(ScopedPreferenceStore.java:345)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.firePropertyChangeEvent(ScopedPreferenceStore.java:342)
+	at org.eclipse.jface.preference.PreferenceConverter.setValue(PreferenceConverter.java:582)
+	at org.eclipse.jface.preference.ColorFieldEditor.doStore(ColorFieldEditor.java:117)
+	at org.eclipse.jface.preference.FieldEditor.store(FieldEditor.java:676)
+	at org.eclipse.jface.preference.FieldEditorPreferencePage.performOk(FieldEditorPreferencePage.java:344)
+	at org.eclipse.jface.preference.PreferencePage.performApply(PreferencePage.java:454)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:286)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at com.xilinx.ide.application.ui.preferences.CustomOpenPreferencesAction.run(CustomOpenPreferencesAction.java:69)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5686)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1370)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4940)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4518)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:78)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1471)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:01.293
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-195
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:01.299
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-195
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.299
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.309
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.310
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.336
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.337
+!MESSAGE XSCT Command: [version -server], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.340
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.340
+!MESSAGE XSCT Command: [version], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.342
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.343
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.357
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.358
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.386
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.387
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.392
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.392
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.405
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.405
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.409
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.410
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.438
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.439
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.444
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.445
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.458
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.459
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.463
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.464
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.476
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.476
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.480
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.481
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.510
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.510
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279758512A" && level == 0}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.524
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279758512A" && level == 0}], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.524
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.525
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.525
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.534
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.534
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.585
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:02.585
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:05.588
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:05.628
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:05.636
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279758512A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:05.636
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:05.651
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:05.651
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:05.682
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279758512A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:05.682
+!MESSAGE XSCT Command: [fpga -file /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/bitstream/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:06.893
+!MESSAGE XSCT command with result: [fpga -file /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/bitstream/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:06.919
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:06.933
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:06.934
+!MESSAGE XSCT Command: [loadhw -hw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.416
+!MESSAGE XSCT command with result: [loadhw -hw /home/skillet/git/ECE530/Lab07c/Lab07cHW/export/Lab07cHW/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, system_wrapper_1]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.416
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.418
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.418
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.424
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.424
+!MESSAGE XSCT Command: [source /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/psinit/ps7_init.tcl], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.425
+!MESSAGE XSCT command with result: [source /home/skillet/git/ECE530/Lab07c/Lab07cSW/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.426
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.568
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.568
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.573
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.573
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.579
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.579
+!MESSAGE XSCT Command: [dow /home/skillet/git/ECE530/Lab07c/Lab07cSW/Debug/Lab07cSW.elf], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.726
+!MESSAGE XSCT command with result: [dow /home/skillet/git/ECE530/Lab07c/Lab07cSW/Debug/Lab07cSW.elf], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.727
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.761
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.801
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.885
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.886
+!MESSAGE XSCT Command: [con], Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 11:28:08.900
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-21: Launching Debugger_Lab07cSW-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-13 11:28:08.901
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '3'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-13 11:37:10.872
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-13 11:37:10.873
+!MESSAGE A conflict occurred for ALT+ARROW_UP:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.maximize,Maximize Active View or Editor,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c843607,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,Move Lines Up,
+		Moves the selected lines up,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b6357bc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-13 11:37:10.873
+!MESSAGE A conflict occurred for ALT+C:
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.refactor.extract.constant,Extract Constant - Refactoring ,
+		Extracts a constant for the selected expression,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e716a68,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.command1,Terminal view insert,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6aa4c5c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.TerminalContext,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-13 11:37:10.873
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17edf294,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.copy,Copy,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66429962,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 16:38:30.136
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-245
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-13 16:38:30.140
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-245
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-13 16:38:30.282
+!MESSAGE Executing command: /tools/Xilinx/Vitis/2019.2/bin/wbtcv -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-13 16:38:30.287
+!MESSAGE Executed Webtalk command
+!SESSION 2022-01-14 02:51:02.101 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-14 02:51:03.683
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2022-01-14 02:51:10.505
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2022-01-14 02:51:10.508
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.824
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.825
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.825
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.827
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.827
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.828
+!MESSAGE XSCT Command: [setws /home/skillet/git/ECE530/Lab07c], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.893
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.893
+!MESSAGE XSCT command with result: [setws /home/skillet/git/ECE530/Lab07c], Result: [null, ]. Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.893
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-14 02:51:12.894
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-1: Initializing s/w repositories

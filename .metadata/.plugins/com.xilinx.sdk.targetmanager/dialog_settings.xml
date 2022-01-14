@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="Lab02App-skip_rev_check"/>
+	<item value="false" key="Lab02App-partial_bit"/>
+	<item value="_ide/bitstream/system_wrapper.bit" key="Lab02App-bitFile"/>
+	<item value="Lab02App" key="programfpga.sdxproject"/>
+	<item value="" key="Lab02App-bmmFile"/>
+	<item value="Local" key="Lab02App-target"/>
+	<item value="Auto Detect" key="Lab02App-device"/>
+</section>

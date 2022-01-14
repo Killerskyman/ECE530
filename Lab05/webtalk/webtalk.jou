@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# 
+# Start of session at: Fri Dec 17 11:06:26 2021
+# Process ID: 25528
+# Current directory: /home/skillet/git/ECE530/Lab05/webtalk
+# Command line: wbtcv -mode batch -source vitis_webtalk.tcl
+# Log file: /home/skillet/git/ECE530/Lab05/webtalk/webtalk.log
+# Journal file: /home/skillet/git/ECE530/Lab05/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

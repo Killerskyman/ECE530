@@ -1,0 +1,7 @@
+/*Lab07bHW*/
+the_ROM_image:
+{
+  [bootloader]<Lab07bHW/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

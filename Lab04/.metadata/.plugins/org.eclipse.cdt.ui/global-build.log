@@ -1,0 +1,28 @@
+Nothing to build in platform 'Lab04hw'
+
+16:33:33 **** Clean-only build of configuration Debug for project Lab04sw ****
+make clean 
+rm -rf  ./src/lab4scc.o  ./src/lab4scc.d  Lab04sw.elf.size  Lab04sw.elf
+ 
+16:33:33 **** Incremental Build of configuration Debug for project Lab04sw ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/lab4scc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4scc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/sw/Lab04hw/standalone_domain/bspinclude/include -MMD -MP -MF"src/lab4scc.d" -MT"src/lab4scc.o" -o "src/lab4scc.o" "../src/lab4scc.c"
+Finished building: ../src/lab4scc.c
+ 
+Building target: Lab04sw.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/skillet/git/ECE530/Lab04/Lab04hw/export/Lab04hw/sw/Lab04hw/standalone_domain/bsplib/lib -o "Lab04sw.elf"  ./src/lab4scc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab04sw.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab04sw.elf  |tee "Lab04sw.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30808	   1576	   8928	  41312	   a160	Lab04sw.elf
+Finished building: Lab04sw.elf.size
+ 

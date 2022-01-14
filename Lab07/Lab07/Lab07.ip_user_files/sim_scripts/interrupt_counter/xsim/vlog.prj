@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "../../../../Lab07.srcs/sources_1/bd/interrupt_counter/ipshared/ec67/hdl" --include "../../../../Lab07.srcs/sources_1/bd/interrupt_counter/ipshared/2d50/hdl" --include "../../../../Lab07.srcs/sources_1/bd/interrupt_counter/ip/interrupt_counter_processing_system7_0_0" \
+"../../../bd/interrupt_counter/ip/interrupt_counter_processing_system7_0_0/sim/interrupt_counter_processing_system7_0_0.v" \
+"../../../bd/interrupt_counter/ip/interrupt_counter_xbar_0/sim/interrupt_counter_xbar_0.v" \
+"../../../bd/interrupt_counter/sim/interrupt_counter.v" \
+"../../../bd/interrupt_counter/ip/interrupt_counter_auto_pc_0/sim/interrupt_counter_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

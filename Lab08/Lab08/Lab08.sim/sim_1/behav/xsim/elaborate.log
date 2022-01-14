@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto dda8ef574e2c4de080d6caf4689b4fc6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BaudRateGeneratorTB_behav xil_defaultlib.BaudRateGeneratorTB xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/skillet/git/ECE530/Lab08/Lab08/Lab08.srcs/sources_1/imports/Lab8 UART Source Files-20220114/BaudRateGenerator.v" Line 9. Module BaudRateGenerator doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BaudRateGenerator
+Compiling module xil_defaultlib.BaudRateGeneratorTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BaudRateGeneratorTB_behav
