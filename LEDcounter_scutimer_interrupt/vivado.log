@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 12 12:27:05 2022
+# Process ID: 3672
+# Current directory: C:/xup/LEDcounter_scutimer_interrupt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3956 C:\xup\LEDcounter_scutimer_interrupt\LEDcounter_scutimer_interrupt.xpr
+# Log file: C:/xup/LEDcounter_scutimer_interrupt/vivado.log
+# Journal file: C:/xup/LEDcounter_scutimer_interrupt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 838.734 ; gain = 166.723
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk -hwspec C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk/LEDcounter_scutimer_interrupt_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk -hwspec C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk/LEDcounter_scutimer_interrupt_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file mkdir C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk
+file copy -force C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.runs/impl_1/LEDcounter_scutimer_interrupt_wrapper.sysdef C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk/LEDcounter_scutimer_interrupt_wrapper.hdf
+
+launch_sdk -workspace C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk -hwspec C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk/LEDcounter_scutimer_interrupt_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk -hwspec C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk/LEDcounter_scutimer_interrupt_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 12 12:36:59 2022...

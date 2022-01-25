@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../LEDcounter_scutimer_interrupt.srcs/sources_1/bd/LEDcounter_scutimer_interrupt/ip/LEDcounter_scutimer_interrupt_axi_gpio_0_0/sim/LEDcounter_scutimer_interrupt_axi_gpio_0_0.vhd" \
+"../../../../LEDcounter_scutimer_interrupt.srcs/sources_1/bd/LEDcounter_scutimer_interrupt/ip/LEDcounter_scutimer_interrupt_rst_processing_system7_0_100M_0/sim/LEDcounter_scutimer_interrupt_rst_processing_system7_0_100M_0.vhd" \
+
+nosort

@@ -148,3 +148,10 @@ con
 04:18:24 INFO  : plnx-install-location is set to ''
 04:18:24 INFO  : Successfully done setting workspace for the tool. 
 04:18:24 INFO  : Successfully done query RDI_DATADIR 
+11:50:41 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/Lab07/temp_xsdb_launch_script.tcl
+11:50:44 INFO  : Registering command handlers for Vitis TCF services
+11:50:45 INFO  : XSCT server has started successfully.
+11:50:46 INFO  : Successfully done setting XSCT server connection channel  
+11:50:46 INFO  : plnx-install-location is set to ''
+11:50:46 INFO  : Successfully done setting workspace for the tool. 
+11:50:46 INFO  : Successfully done query RDI_DATADIR 

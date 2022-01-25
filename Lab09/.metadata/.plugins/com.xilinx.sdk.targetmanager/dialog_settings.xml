@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="" key="Lab09p1SWTest-bmmFile"/>
 	<item value="Local" key="Lab09p1SW-target"/>
 	<item value="Local" key="Lab09p1SWTest-target"/>
-	<item value="Auto Detect" key="Lab09p1SW-device"/>
 	<item value="false" key="Lab09p1SW-skip_rev_check"/>
-	<item value="/home/skillet/git/ECE530/Lab09/Lab09p1Wrapper/design_1_wrapper.bit" key="Lab09p1SWTest-bitFile"/>
-	<item value="Lab09p1SW" key="programfpga.sdxproject"/>
+	<item value="/home/skillet/git/ECE530/Lab09/Lab09p2aWrapper/design_1_wrapper.bit" key="Lab09p2aSW-bitFile"/>
+	<item value="Lab09p2bSW" key="programfpga.sdxproject"/>
+	<item value="Local" key="Lab09p2aSW-target"/>
 	<item value="false" key="Lab09p1SW-partial_bit"/>
-	<item value="" key="Lab09p1SW-bmmFile"/>
+	<item value="Local" key="Lab09p2bSW-target"/>
+	<item value="Auto Detect" key="Lab09p2aSW-device"/>
 	<item value="false" key="Lab09p1SWTest-partial_bit"/>
+	<item value="false" key="Lab09p2aSW-partial_bit"/>
 	<item value="Auto Detect" key="Lab09p1SWTest-device"/>
+	<item value="" key="Lab09p2bSW-bmmFile"/>
 	<item value="/home/skillet/git/ECE530/Lab09/Lab09p1Wrapper/design_1_wrapper.bit" key="Lab09p1SW-bitFile"/>
 	<item value="false" key="Lab09p1SWTest-skip_rev_check"/>
+	<item value="" key="Lab09p1SWTest-bmmFile"/>
+	<item value="Auto Detect" key="Lab09p1SW-device"/>
+	<item value="/home/skillet/git/ECE530/Lab09/Lab09p1Wrapper/design_1_wrapper.bit" key="Lab09p1SWTest-bitFile"/>
+	<item value="false" key="Lab09p2bSW-partial_bit"/>
+	<item value="" key="Lab09p1SW-bmmFile"/>
+	<item value="false" key="Lab09p2aSW-skip_rev_check"/>
+	<item value="false" key="Lab09p2bSW-skip_rev_check"/>
+	<item value="Auto Detect" key="Lab09p2bSW-device"/>
+	<item value="" key="Lab09p2aSW-bmmFile"/>
+	<item value="/home/skillet/git/ECE530/Lab09/Lab09p2bWrapper/design_1_wrapper.bit" key="Lab09p2bSW-bitFile"/>
 </section>

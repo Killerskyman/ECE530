@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="/home/skillet/git/ECE530/Lab09/Lab09p1Wrapper" key="sdx_program_fpga_view_bit_bmm_browse_key"/>
-	<item value="/home/skillet/git/ECE530/Lab09/Lab09p1Wrapper" key="scw_hwspec"/>
+	<item value="/home/skillet/git/ECE530/Lab09/Lab09p2bWrapper" key="sdx_program_fpga_view_bit_bmm_browse_key"/>
+	<item value="/home/skillet/git/ECE530/Lab09/Lab09p2bWrapper" key="scw_hwspec"/>
 </section>

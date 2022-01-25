@@ -23,4 +23,13 @@
 			<item value="org.eclipse.ui.Examples"/>
 		</list>
 	</section>
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/home/skillet/git/ECE530/Lab09/Lab09p2aSW/src"/>
+			<item value="/home/skillet/git/ECE530/LEDcounter_scutimer_interrupt"/>
+			<item value="/home/skillet/git/ECE530/Lab09/Lab09p1SW/src"/>
+		</list>
+	</section>
 </section>

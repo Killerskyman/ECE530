@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 12 12:27:05 2022
+# Process ID: 3672
+# Current directory: C:/xup/LEDcounter_scutimer_interrupt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3956 C:\xup\LEDcounter_scutimer_interrupt\LEDcounter_scutimer_interrupt.xpr
+# Log file: C:/xup/LEDcounter_scutimer_interrupt/vivado.log
+# Journal file: C:/xup/LEDcounter_scutimer_interrupt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk -hwspec C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk/LEDcounter_scutimer_interrupt_wrapper.hdf
+file mkdir C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk
+file copy -force C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.runs/impl_1/LEDcounter_scutimer_interrupt_wrapper.sysdef C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk/LEDcounter_scutimer_interrupt_wrapper.hdf
+
+launch_sdk -workspace C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk -hwspec C:/xup/LEDcounter_scutimer_interrupt/LEDcounter_scutimer_interrupt.sdk/LEDcounter_scutimer_interrupt_wrapper.hdf

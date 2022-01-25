@@ -1,0 +1,25 @@
+10:38:11 **** Incremental Build of configuration Debug for project Lab09p2bSW ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/Lab09p2b.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab09p2b.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab09/Lab09p2bHW/export/Lab09p2bHW/sw/Lab09p2bHW/standalone_domain/bspinclude/include -MMD -MP -MF"src/Lab09p2b.d" -MT"src/Lab09p2b.o" -o "src/Lab09p2b.o" "../src/Lab09p2b.c"
+Finished building: ../src/Lab09p2b.c
+ 
+Building target: Lab09p2bSW.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/skillet/git/ECE530/Lab09/Lab09p2bHW/export/Lab09p2bHW/sw/Lab09p2bHW/standalone_domain/bsplib/lib -o "Lab09p2bSW.elf" ./src/Lab09p2b.o ./src/scutimer_int_subrout.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab09p2bSW.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab09p2bSW.elf  |tee "Lab09p2bSW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81760	   3440	  23552	 108752	  1a8d0	Lab09p2bSW.elf
+Finished building: Lab09p2bSW.elf.size
+ 
+
+10:38:11 Build Finished (took 361ms)
+

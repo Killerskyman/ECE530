@@ -1,4 +1,4 @@
-07:14:46 **** Incremental Build of configuration Debug for project Lab09p1SW ****
+11:09:01 **** Incremental Build of configuration Debug for project Lab09p1SW ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -17,9 +17,9 @@ Finished building target: Lab09p1SW.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size Lab09p1SW.elf  |tee "Lab09p1SW.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  64184	   2608	  23456	  90248	  16088	Lab09p1SW.elf
+  64072	   2608	  23456	  90136	  16018	Lab09p1SW.elf
 Finished building: Lab09p1SW.elf.size
  
 
-07:14:46 Build Finished (took 367ms)
+11:09:01 Build Finished (took 364ms)
 

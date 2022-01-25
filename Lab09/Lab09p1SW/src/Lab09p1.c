@@ -112,13 +112,13 @@ int ConfigureI2Cinstance(XIicPs *I2Cinstance, int I2CdeviceID, int I2C_ClockRate
 		}
 
 //Wait when I2Cdevice is busy, until bus is idle to start another transfer
-	printf("going into while \r\n");
+//	printf("going into while \r\n");
 	s32 status1 = (s32)TRUE;
 	while( status1 ){
 		status1 = XIicPs_BusIsBusy(I2Cinstance);
 //		printf("%d \r\n",status1);
 	}
-	printf("out of while \r\n");
+//	printf("out of while \r\n");
 
 	return XST_SUCCESS;
 
@@ -153,7 +153,7 @@ int main(void){
 
 
 	while(1) {
-		printf("in loop \n\r");
+//		printf("in loop \n\r");
 //Read tmp101 board and calculate temperature value on PS port
 		status = ReadTemperature(&i2c_ps, &temp_ps, PS_TMP101_ADDRESS);
 		if(status == XST_FAILURE) printf("Failed to read TMP101 from PS on bottom row of Connector JF.\r\n");
@@ -172,7 +172,7 @@ int main(void){
 		temp_pl_c = temp_pl*0.0625;
 		temp_pl_f = temp_pl_c*9/5.0 + 32.0;
 
-		printf("TMP101-PS = %8.4f C %8.4f F\r\n", temp_ps_c, temp_ps_f);
+		printf("TMP101-PS = %8.4f C %8.4f F\n", temp_ps_c, temp_ps_f);
 		printf("TMP101-PL = %8.4f C %8.4f F\r\n", temp_pl_c, temp_pl_f);
 
 

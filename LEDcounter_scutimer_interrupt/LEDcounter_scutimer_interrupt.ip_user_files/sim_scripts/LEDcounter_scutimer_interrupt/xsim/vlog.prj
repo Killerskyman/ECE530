@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "../../../../LEDcounter_scutimer_interrupt.srcs/sources_1/bd/LEDcounter_scutimer_interrupt/ipshared/ec67/hdl" --include "../../../../LEDcounter_scutimer_interrupt.srcs/sources_1/bd/LEDcounter_scutimer_interrupt/ipshared/2d50/hdl" --include "../../../../LEDcounter_scutimer_interrupt.srcs/sources_1/bd/LEDcounter_scutimer_interrupt/ip/LEDcounter_scutimer_interrupt_processing_system7_0_0" \
+"../../../../LEDcounter_scutimer_interrupt.srcs/sources_1/bd/LEDcounter_scutimer_interrupt/ip/LEDcounter_scutimer_interrupt_processing_system7_0_0/sim/LEDcounter_scutimer_interrupt_processing_system7_0_0.v" \
+"../../../../LEDcounter_scutimer_interrupt.srcs/sources_1/bd/LEDcounter_scutimer_interrupt/sim/LEDcounter_scutimer_interrupt.v" \
+"../../../../LEDcounter_scutimer_interrupt.srcs/sources_1/bd/LEDcounter_scutimer_interrupt/ip/LEDcounter_scutimer_interrupt_auto_pc_0/sim/LEDcounter_scutimer_interrupt_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

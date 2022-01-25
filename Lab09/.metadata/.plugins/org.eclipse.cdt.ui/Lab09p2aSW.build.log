@@ -1,0 +1,30 @@
+12:19:48 **** Incremental Build of configuration Debug for project Lab09p2aSW ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/Lab09p2a.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab09p2a.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab09/Lab09p2aHW/export/Lab09p2aHW/sw/Lab09p2aHW/standalone_domain/bspinclude/include -MMD -MP -MF"src/Lab09p2a.d" -MT"src/Lab09p2a.o" -o "src/Lab09p2a.o" "../src/Lab09p2a.c"
+Finished building: ../src/Lab09p2a.c
+ 
+Building file: ../src/scutimer_int_subrout.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/scutimer_int_subrout.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab09/Lab09p2aHW/export/Lab09p2aHW/sw/Lab09p2aHW/standalone_domain/bspinclude/include -MMD -MP -MF"src/scutimer_int_subrout.d" -MT"src/scutimer_int_subrout.o" -o "src/scutimer_int_subrout.o" "../src/scutimer_int_subrout.c"
+Finished building: ../src/scutimer_int_subrout.c
+ 
+Building target: Lab09p2aSW.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/skillet/git/ECE530/Lab09/Lab09p2aHW/export/Lab09p2aHW/sw/Lab09p2aHW/standalone_domain/bsplib/lib -o "Lab09p2aSW.elf" ./src/Lab09p2a.o ./src/scutimer_int_subrout.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab09p2aSW.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab09p2aSW.elf  |tee "Lab09p2aSW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70320	   3408	  23520	  97248	  17be0	Lab09p2aSW.elf
+Finished building: Lab09p2aSW.elf.size
+ 
+
+12:19:49 Build Finished (took 681ms)
+
