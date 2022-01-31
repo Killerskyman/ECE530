@@ -1,0 +1,87 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 7832
+
+Current time: 	1/17/22 11:29:44 PM EST
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	song
+User home directory: C:/Users/song
+User working directory: C:/xup/lab10VGAdemoJJS
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/song/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/song/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	224 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 445 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\xup\lab10VGAdemoJJS\lab10VGAdemoJJS.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 42 MB (+41295kb) [00:00:05]
+// [Engine Memory]: 436 MB (+306039kb) [00:00:05]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 44 MB (+502kb) [00:00:08]
+// [Engine Memory]: 548 MB (+94722kb) [00:00:08]
+// [GUI Memory]: 49 MB (+2356kb) [00:00:09]
+// [Engine Memory]: 597 MB (+21851kb) [00:00:09]
+// [GUI Memory]: 62 MB (+10903kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/xup/lab10VGAdemoJJS/lab10VGAdemoJJS.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/xup/lab10VGAdemoJJS/zybo_base_system_lib'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 610 MB. GUI used memory: 40 MB. Current time: 1/17/22 11:29:48 PM EST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: lab10VGAdemoJJS; location: C:/xup/lab10VGAdemoJJS; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 893.625 ; gain = 209.734 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 59 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)

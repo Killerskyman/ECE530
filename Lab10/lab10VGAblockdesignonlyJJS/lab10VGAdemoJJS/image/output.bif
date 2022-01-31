@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]C:\Xilinx\labs2018spring\lab10VGAdemoJJS\lab10VGAdemoJJS.sdk\lab10VGAdemoJJS_fsbl\Debug\lab10VGAdemoJJS_fsbl.elf
+	C:\Xilinx\labs2018spring\lab10VGAdemoJJS\lab10VGAdemoJJS.sdk\lab9VGA_wrapper_hw_platform_0\lab9VGA_wrapper.bit
+	C:\Xilinx\labs2018spring\lab10VGAdemoJJS\lab10VGAdemoJJS.sdk\lab10VGAdemoJJS\Debug\lab10VGAdemoJJS.elf
+}

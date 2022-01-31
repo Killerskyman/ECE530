@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jan 27 10:35:14 2022
+# Process ID: 16580
+# Current directory: C:/xup/lab10VGAdemoJJS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11680 C:\xup\lab10VGAdemoJJS\lab10VGAdemoJJS.xpr
+# Log file: C:/xup/lab10VGAdemoJJS/vivado.log
+# Journal file: C:/xup/lab10VGAdemoJJS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/xup/lab10VGAdemoJJS/lab10VGAdemoJJS.xpr
+Scanning sources...
+Finished scanning sources
+ERROR: [Common 17-680] Path length exceeds 248-Byte maximum allowed by Windows: C:/xup/lab10VGAdemoJJS/Users/song/AppData/Roaming/Xilinx/Users/song/AppData/Roaming/Xilinx/Users/song/AppData/Roaming/Xilinx/Users/song/AppData/Roaming/Xilinx/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS/lab10VGAdemoJJS.cache/compile_simlib/modelsim
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+open_project C:/xup/Lab10VGAstudentImages/Lab9VGAstudentImages.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/xup/lab10VGAdemoJJS/zybo_base_system_lib'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 880.258 ; gain = 168.035
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/xup/Lab10VGAstudentImages/Lab9VGAstudentImages.sdk -hwspec C:/xup/Lab10VGAstudentImages/Lab9VGAstudentImages.sdk/lab9VGA_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/xup/Lab10VGAstudentImages/Lab9VGAstudentImages.sdk -hwspec C:/xup/Lab10VGAstudentImages/Lab9VGAstudentImages.sdk/lab9VGA_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 27 10:38:15 2022...

@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_axi_vdma_0_0/sim/design_1_axi_vdma_0_0.vhd" \
+"../../../bd/design_1/ipshared/bcf5/hdl/axi_dispctrl_v1_0.vhd" \
+"../../../bd/design_1/ipshared/bcf5/hdl/vdma_to_vga.vhd" \
+"../../../bd/design_1/ipshared/bcf5/hdl/axi_dispctrl_v1_0_S_AXI.vhd" \
+
+nosort

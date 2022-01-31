@@ -1,0 +1,15 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab10RefSW-Default,org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab10p1SW-Default
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab07SW1-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab07SW1-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab09p1SW-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab09p1SW-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab09p1SWTest-Default/activeLaunchMode=embdebug
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab09p1SWTest-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab09p2aSW-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab09p2bSW-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab10p1SW-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_Lab10p1SW-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

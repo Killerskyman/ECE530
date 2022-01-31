@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jan 27 10:35:14 2022
+# Process ID: 16580
+# Current directory: C:/xup/lab10VGAdemoJJS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11680 C:\xup\lab10VGAdemoJJS\lab10VGAdemoJJS.xpr
+# Log file: C:/xup/lab10VGAdemoJJS/vivado.log
+# Journal file: C:/xup/lab10VGAdemoJJS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/xup/lab10VGAdemoJJS/lab10VGAdemoJJS.xpr
+open_project C:/xup/Lab10VGAstudentImages/Lab9VGAstudentImages.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/xup/Lab10VGAstudentImages/Lab9VGAstudentImages.sdk -hwspec C:/xup/Lab10VGAstudentImages/Lab9VGAstudentImages.sdk/lab9VGA_wrapper.hdf

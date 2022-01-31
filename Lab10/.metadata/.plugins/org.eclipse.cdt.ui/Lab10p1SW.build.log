@@ -1,0 +1,45 @@
+14:08:53 **** Incremental Build of configuration Debug for project Lab10p1SW ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/audio_demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab10/Lab10p1HW/export/Lab10p1HW/sw/Lab10p1HW/standalone_domain/bspinclude/include -MMD -MP -MF"src/audio_demo.d" -MT"src/audio_demo.o" -o "src/audio_demo.o" "../src/audio_demo.c"
+Finished building: ../src/audio_demo.c
+ 
+Building file: ../src/display_ctrl.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab10/Lab10p1HW/export/Lab10p1HW/sw/Lab10p1HW/standalone_domain/bspinclude/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.o" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+Finished building: ../src/display_ctrl.c
+ 
+Building file: ../src/display_demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab10/Lab10p1HW/export/Lab10p1HW/sw/Lab10p1HW/standalone_domain/bspinclude/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+Finished building: ../src/display_demo.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab10/Lab10p1HW/export/Lab10p1HW/sw/Lab10p1HW/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/timer_ps.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/skillet/git/ECE530/Lab10/Lab10p1HW/export/Lab10p1HW/sw/Lab10p1HW/standalone_domain/bspinclude/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.o" -o "src/timer_ps.o" "../src/timer_ps.c"
+Finished building: ../src/timer_ps.c
+ 
+Building target: Lab10p1SW.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/skillet/git/ECE530/Lab10/Lab10p1HW/export/Lab10p1HW/sw/Lab10p1HW/standalone_domain/bsplib/lib -o "Lab10p1SW.elf" ./src/audio_demo.o ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab10p1SW.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab10p1SW.elf  |tee "Lab10p1SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  91328	   2736	26829424	26923488	19ad1e0	Lab10p1SW.elf
+Finished building: Lab10p1SW.elf.size
+ 
+
+14:08:54 Build Finished (took 574ms)
+

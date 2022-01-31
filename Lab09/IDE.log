@@ -2404,3 +2404,24 @@ con
 
 11:07:10 INFO  : Launch script is exported to file '/home/skillet/git/ECE530/Lab09/.sdk/launch_scripts/single_application_debug/debugger_lab09p2bsw-default.tcl'
 11:16:29 INFO  : Disconnected from the channel tcfchan#12.
+21:27:36 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/Lab09/temp_xsdb_launch_script.tcl
+21:27:38 INFO  : Registering command handlers for Vitis TCF services
+21:27:39 INFO  : XSCT server has started successfully.
+21:27:39 INFO  : Successfully done setting XSCT server connection channel  
+21:27:39 INFO  : plnx-install-location is set to ''
+21:27:39 INFO  : Successfully done query RDI_DATADIR 
+21:27:39 INFO  : Successfully done setting workspace for the tool. 
+11:26:13 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/Lab09/temp_xsdb_launch_script.tcl
+11:26:15 INFO  : Registering command handlers for Vitis TCF services
+11:26:16 INFO  : XSCT server has started successfully.
+11:26:16 INFO  : plnx-install-location is set to ''
+11:26:16 INFO  : Successfully done setting XSCT server connection channel  
+11:26:16 INFO  : Successfully done query RDI_DATADIR 
+11:26:16 INFO  : Successfully done setting workspace for the tool. 
+11:25:37 INFO  : Launching XSCT server: xsct -n  -interactive /home/skillet/git/ECE530/Lab09/temp_xsdb_launch_script.tcl
+11:25:40 INFO  : Registering command handlers for Vitis TCF services
+11:25:40 INFO  : XSCT server has started successfully.
+11:25:41 INFO  : Successfully done setting XSCT server connection channel  
+11:25:41 INFO  : plnx-install-location is set to ''
+11:25:41 INFO  : Successfully done query RDI_DATADIR 
+11:25:41 INFO  : Successfully done setting workspace for the tool. 

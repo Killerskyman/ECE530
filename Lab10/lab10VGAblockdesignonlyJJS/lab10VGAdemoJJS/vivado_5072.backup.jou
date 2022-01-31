@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Jan 26 14:40:50 2021
+# Process ID: 5072
+# Current directory: C:/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8232 C:\Xilinx\ECE530winter2020vivado\lab10VGAdemoJJS\lab10VGAdemoJJS.xpr
+# Log file: C:/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS/vivado.log
+# Journal file: C:/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS/lab10VGAdemoJJS.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS/lab10VGAdemoJJS.srcs/sources_1/bd/lab9VGA/lab9VGA.bd}
+launch_sdk -workspace C:/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS/lab10VGAdemoJJS.sdk -hwspec C:/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS/lab10VGAdemoJJS.sdk/lab9VGA_wrapper.hdf

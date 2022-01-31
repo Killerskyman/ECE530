@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 26 15:56:55 2022
+# Process ID: 17136
+# Current directory: C:/xup/lab10VGAdemoJJS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4580 C:\xup\lab10VGAdemoJJS\lab10VGAdemoJJS.xpr
+# Log file: C:/xup/lab10VGAdemoJJS/vivado.log
+# Journal file: C:/xup/lab10VGAdemoJJS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/xup/lab10VGAdemoJJS/lab10VGAdemoJJS.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/xup/lab10VGAdemoJJS/zybo_base_system_lib'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 878.809 ; gain = 206.984
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/xup/lab10VGAdemoJJS/lab10VGAdemoJJS.sdk -hwspec C:/xup/lab10VGAdemoJJS/lab10VGAdemoJJS.sdk/lab9VGA_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/xup/lab10VGAdemoJJS/lab10VGAdemoJJS.sdk -hwspec C:/xup/lab10VGAdemoJJS/lab10VGAdemoJJS.sdk/lab9VGA_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 26 15:59:58 2022...

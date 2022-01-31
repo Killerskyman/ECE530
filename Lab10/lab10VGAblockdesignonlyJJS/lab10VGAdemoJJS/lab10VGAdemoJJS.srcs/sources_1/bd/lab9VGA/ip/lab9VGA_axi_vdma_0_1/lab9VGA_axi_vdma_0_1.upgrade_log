@@ -1,0 +1,16 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sun Jan 14 23:54:14 2018
+| Host         : song-5510 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab9VGA_axi_vdma_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab9VGA_axi_vdma_0_1 (xilinx.com:ip:axi_vdma:6.2) from (Rev. 2) to (Rev. 4)
+

@@ -1,0 +1,14 @@
+verilog xil_defaultlib --include "../../../../lab10VGAdemoJJS.srcs/sources_1/bd/lab9VGA/ipshared/ec67/hdl" --include "../../../../lab10VGAdemoJJS.srcs/sources_1/bd/lab9VGA/ipshared/2d50/hdl" --include "../../../../lab10VGAdemoJJS.srcs/sources_1/bd/lab9VGA/ip/lab9VGA_processing_system7_0_1" --include "../../../../lab10VGAdemoJJS.srcs/sources_1/bd/lab9VGA/ipshared/798b/hdl" \
+"../../../bd/lab9VGA/ip/lab9VGA_processing_system7_0_1/sim/lab9VGA_processing_system7_0_1.v" \
+"../../../../lab10VGAdemoJJS.srcs/sources_1/ipshared/bcf5/hdl/mmcme2_drp.v" \
+"../../../bd/lab9VGA/ip/lab9VGA_axi_dispctrl_0_1/sim/lab9VGA_axi_dispctrl_0_1.v" \
+"../../../bd/lab9VGA/ip/lab9VGA_xlconstant_0_0/sim/lab9VGA_xlconstant_0_0.v" \
+"../../../bd/lab9VGA/ip/lab9VGA_xbar_2/sim/lab9VGA_xbar_2.v" \
+"../../../bd/lab9VGA/ip/lab9VGA_xbar_3/sim/lab9VGA_xbar_3.v" \
+"../../../bd/lab9VGA/sim/lab9VGA.v" \
+"../../../bd/lab9VGA/ip/lab9VGA_auto_pc_0/sim/lab9VGA_auto_pc_0.v" \
+"../../../bd/lab9VGA/ip/lab9VGA_auto_pc_1/sim/lab9VGA_auto_pc_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -13513,3 +13513,183 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-28: Launc
 
 !ENTRY com.xilinx.sdk.utils 1 0 2022-01-21 11:16:29.383
 !MESSAGE Executed Webtalk command
+!SESSION 2022-01-26 21:27:27.429 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-26 21:27:29.149
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-26 21:27:31.986
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-26 21:27:31.989
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-26 21:27:31.989
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.ui 4 4 2022-01-26 21:27:36.196
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2022-01-26 21:27:36.197
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.070
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.070
+!MESSAGE XSCT Command: [enable_info_messages], Thread: Worker-2: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.071
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.071
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.240
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.240
+!MESSAGE XSCT command with result: [enable_info_messages], Result: [null, ]. Thread: Worker-2: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.240
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.240
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.241
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.241
+!MESSAGE XSCT Command: [setws /home/skillet/git/ECE530/Lab09], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.242
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-26 21:27:39.242
+!MESSAGE XSCT command with result: [setws /home/skillet/git/ECE530/Lab09], Result: [null, ]. Thread: Thread-19
+!SESSION 2022-01-28 11:25:58.790 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-28 11:26:07.572
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-28 11:26:09.973
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-28 11:26:09.976
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-28 11:26:09.976
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.ui 4 4 2022-01-28 11:26:13.812
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2022-01-28 11:26:13.813
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.691
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.691
+!MESSAGE XSCT Command: [enable_info_messages], Thread: Worker-4: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.692
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.693
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.789
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.789
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.789
+!MESSAGE XSCT command with result: [enable_info_messages], Result: [null, ]. Thread: Worker-4: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.790
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.790
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.791
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.791
+!MESSAGE XSCT Command: [setws /home/skillet/git/ECE530/Lab09], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 11:26:16.792
+!MESSAGE XSCT command with result: [setws /home/skillet/git/ECE530/Lab09], Result: [null, ]. Thread: Thread-19
+!SESSION 2022-01-31 11:25:28.902 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-31 11:25:30.647
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-31 11:25:33.504
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-31 11:25:33.509
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-31 11:25:33.509
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.ui 4 4 2022-01-31 11:25:37.993
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2022-01-31 11:25:37.994
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:40.851
+!MESSAGE XSCT Command: [enable_info_messages], Thread: Worker-4: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:40.851
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:40.851
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:40.852
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:40.854
+!MESSAGE XSCT command with result: [enable_info_messages], Result: [null, ]. Thread: Worker-4: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:41.083
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:41.083
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:41.083
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:41.083
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:41.084
+!MESSAGE XSCT Command: [setws /home/skillet/git/ECE530/Lab09], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:41.084
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2019.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-31 11:25:41.085
+!MESSAGE XSCT command with result: [setws /home/skillet/git/ECE530/Lab09], Result: [null, ]. Thread: Thread-19

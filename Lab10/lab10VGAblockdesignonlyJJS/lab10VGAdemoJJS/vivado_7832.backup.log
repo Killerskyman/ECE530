@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jan 17 23:29:33 2022
+# Process ID: 7832
+# Current directory: C:/xup/lab10VGAdemoJJS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8936 C:\xup\lab10VGAdemoJJS\lab10VGAdemoJJS.xpr
+# Log file: C:/xup/lab10VGAdemoJJS/vivado.log
+# Journal file: C:/xup/lab10VGAdemoJJS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/xup/lab10VGAdemoJJS/lab10VGAdemoJJS.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx/ECE530winter2020vivado/lab10VGAdemoJJS' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/xup/lab10VGAdemoJJS/zybo_base_system_lib'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 893.625 ; gain = 209.734
+update_compile_order -fileset sources_1
